@@ -13,17 +13,17 @@ real organisation.
 # 1. Overall Inclusion
 
 The synthetic workforce dataset produces an Inclusion Index of
-68.2/100.
+68.3/100.
 
 The five dimensions are:
 
 | Dimension | Score |
 |---|---:|
-| Belonging | 75.1 |
-| Inclusive Leadership | 74.8 |
-| Employee Voice | 66.3 |
-| Psychological Safety | 64.3 |
-| Fairness & Opportunity | 60.6 |
+| Belonging | 75.2 |
+| Inclusive Leadership | 74.5 |
+| Employee Voice | 66.0 |
+| Psychological Safety | 64.8 |
+| Fairness & Opportunity | 60.8 |
 
 ## Interpretation
 
@@ -41,11 +41,11 @@ The largest observed negative gaps in the synthetic dataset include:
 
 | Segment | Gap vs Company |
 |---|---:|
-| 6–10 years tenure | -3.2 |
-| Commercial | -3.1 |
-| Non-binary / self-described | -2.4 |
-| Operations | -2.4 |
-| 3–5 years tenure | -2.1 |
+| Operations | -4.4 |
+| 6–10 years tenure | -3.0 |
+| Non-binary / self-described | -2.6 |
+| 3–5 years tenure | -1.7 |
+| 18–29 | -1.6 |
 
 These differences should be treated as signals for further
 investigation rather than explanations of why the differences exist.
@@ -60,17 +60,17 @@ context and qualitative information.
 Psychological Safety has the strongest observed correlation with
 the separate overall inclusion outcome in this synthetic dataset:
 
-**r = 0.372**
+**r = 0.371**
 
 Other observed correlations include:
 
 | Dimension | Correlation |
 |---|---:|
-| Psychological Safety | 0.372 |
-| Belonging | 0.356 |
-| Inclusive Leadership | 0.353 |
-| Employee Voice | 0.297 |
-| Fairness & Opportunity | 0.272 |
+| Psychological Safety | 0.371 |
+| Belonging | 0.353 |
+| Inclusive Leadership | 0.352 |
+| Employee Voice | 0.285 |
+| Fairness & Opportunity | 0.267 |
 
 These are statistical associations.
 
