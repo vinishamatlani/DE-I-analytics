@@ -1,0 +1,20 @@
+item_id,dimension,wording,type
+bel_01,Belonging,I feel a sense of belonging at this organisation,driver
+bel_02,Belonging,I can be myself at work,driver
+bel_03,Belonging,I feel valued as a member of my team,driver
+voi_01,Employee Voice,My opinions and ideas are taken seriously,driver
+voi_02,Employee Voice,I feel comfortable raising concerns in my team,driver
+voi_03,Employee Voice,Employees are encouraged to share different perspectives,driver
+psy_01,Psychological Safety,I can speak openly about mistakes without fear of unfair consequences,driver
+psy_02,Psychological Safety,It is safe to challenge the way things are done in my team,driver
+psy_03,Psychological Safety,I feel comfortable asking for help when I need it,driver
+fair_01,Fairness & Opportunity,People have fair access to career development opportunities,driver
+fair_02,Fairness & Opportunity,Promotion decisions are made fairly,driver
+fair_03,Fairness & Opportunity,People are treated fairly regardless of their background,driver
+ldr_01,Inclusive Leadership,Leaders demonstrate that inclusion is important,driver
+ldr_02,Inclusive Leadership,My manager values different perspectives,driver
+ldr_03,Inclusive Leadership,Leaders take action when inclusion concerns are raised,driver
+inc_out_01,Inclusion (outcome),"Overall, this organisation is a place where people from different backgrounds can thrive",outcome
+inc_out_02,Inclusion (outcome),I would recommend this organisation as an inclusive place to work,outcome
+inc_out_03,Inclusion (outcome),I believe this organisation creates an environment where everyone can contribute,outcome
+enps,Inclusion (outcome),How likely are you to recommend this company as a place to work? (0-10),outcome

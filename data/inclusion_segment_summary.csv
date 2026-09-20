@@ -1,0 +1,30 @@
+segment_type,segment,n,inclusion_index,gap_vs_company
+region,North America,943,68.8,0.6
+region,APAC,691,66.3,-1.9
+region,EMEA,1196,68.9,0.6
+gender_group,Men,1362,69.1,0.8
+gender_group,Women,1320,67.6,-0.6
+gender_group,Non-binary / self-described,148,65.8,-2.4
+age_band,30-39,834,68.9,0.7
+age_band,40-49,721,68.9,0.7
+age_band,60+,166,67.6,-0.6
+age_band,18-29,637,67.0,-1.3
+age_band,50-59,472,67.9,-0.3
+department,Operations,731,65.8,-2.4
+department,Customer Service,692,68.3,0.1
+department,Commercial,431,65.1,-3.1
+department,Technology,408,70.9,2.7
+department,Finance & Legal,286,70.7,2.5
+department,People & Workplace,282,72.7,4.5
+job_level,Individual contributor,2008,66.7,-1.5
+job_level,Team lead,511,69.9,1.7
+job_level,Senior leader,61,77.6,9.4
+job_level,Manager,250,74.6,6.4
+tenure_band,1-2 years,703,69.3,1.0
+tenure_band,< 1 year,561,72.8,4.5
+tenure_band,3-5 years,767,66.2,-2.1
+tenure_band,10 years +,317,67.7,-0.5
+tenure_band,6-10 years,482,65.1,-3.2
+work_model,Onsite,1776,67.8,-0.4
+work_model,Remote,293,68.4,0.2
+work_model,Hybrid,761,69.1,0.9

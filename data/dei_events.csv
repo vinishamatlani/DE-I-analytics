@@ -1,0 +1,9 @@
+event_id,event_name,event_type,region,invited,attended,attendance_rate,no_show_rate,knowledge_before,knowledge_after,knowledge_gain,satisfaction_1_5,recommendation_1_5,repeat_participation_pct,estimated_cost
+E001,Inclusive Leadership Workshop,Workshop,EMEA,387,231,0.597,0.403,3.11,3.76,0.65,4.29,4.1,66.4,4304
+E002,Women in Leadership Forum,Forum,North America,133,89,0.671,0.329,3.46,3.87,0.41,4.44,4.34,65.2,9079
+E003,Psychological Safety Lab,Workshop,North America,190,134,0.706,0.294,3.0,3.86,0.86,3.58,4.47,86.2,5940
+E004,Global Cultural Awareness Week,Awareness,EMEA,289,135,0.47,0.53,2.87,3.49,0.62,3.95,4.82,85.3,4820
+E005,Employee Voice Roundtable,Roundtable,EMEA,329,249,0.757,0.243,2.48,3.37,0.89,4.18,4.67,80.3,3324
+E006,Inclusive Hiring Seminar,Seminar,North America,364,199,0.548,0.452,3.31,4.12,0.81,3.99,3.49,69.0,8393
+E007,Belonging at Work Panel,Panel,APAC,149,97,0.651,0.349,3.44,4.24,0.81,4.53,3.84,72.5,6598
+E008,Fair Opportunity Career Session,Career,APAC,277,206,0.746,0.254,2.89,3.42,0.53,4.72,3.99,73.0,3329
