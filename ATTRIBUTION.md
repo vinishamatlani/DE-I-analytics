@@ -29,7 +29,7 @@ The adaptation includes:
 - Region, gender-group and age-band segmentation
 - Inclusion gap analysis
 - Confidentiality suppression
-- Inclusion driver analysis
+- Inclusion association analysis
 - Synthetic DE&I event data
 - DE&I event effectiveness analysis
 - Executive inclusion dashboard

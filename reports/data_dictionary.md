@@ -117,19 +117,21 @@ Groups with fewer than five respondents are suppressed.
 
 ---
 
-# Driver Analysis
+# Inclusion Association Analysis
 
 File:
 
 `data/inclusion_driver_summary.csv`
 
-The project uses Pearson correlation to describe the association
+The project uses Pearson correlation to describe the linear association
 between each inclusion dimension and the separate overall inclusion
 outcome.
 
 Correlation ranges from -1 to +1.
 
-This analysis is descriptive and does not establish causality.
+This analysis is descriptive and does not establish causality. Pearson
+correlation measures the strength and direction of linear association;
+it does not show that one dimension causes the outcome.
 
 ---
 
@@ -170,3 +172,8 @@ respondents to demonstrate confidentiality-aware reporting.
 
 Synthetic relationships should not be interpreted as real-world
 organisational findings.
+
+The survey instrument is illustrative and has not undergone external
+psychometric validation. A production implementation would require
+appropriate reliability, construct-validity, measurement-invariance
+and fairness evaluation before organisational decision-making.

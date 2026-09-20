@@ -1,8 +1,8 @@
 """
-Synthetic engagement-survey generator.
+Synthetic Inclusion & Belonging workforce survey generator.
 
 Builds a complete annual survey for a fictional European services group
-(~3,800 invited employees across 4 countries and 148 teams):
+ (~3,800 invited employees across 4 countries and approximately 149 teams):
 
     data/teams.csv             one row per team, with its manager
     data/survey_responses.csv  one row per *invited* employee - answers only
@@ -10,13 +10,11 @@ Builds a complete annual survey for a fictional European services group
     data/survey_comments.csv   free-text verbatims
 
 The invite list is included in full, non-respondents and all, because response
-rate and non-response bias are part of the analysis rather than a footnote.
+rate and non-response patterns are part of the analysis rather than a footnote.
 
-Everything is stdlib with a fixed seed, so the files are byte-identical on
-every machine. The effects deliberately planted here - the true driver
-weights, the team variation, the comment themes and the response bias - are
-listed in data/README.md so the analysis can be judged on whether it recovers
-them.
+Everything is stdlib with a fixed seed, so the files are reproducible across
+machines. The synthetic effects, segment variation, comment themes and
+response patterns are documented in data/README.md for portfolio review.
 """
 
 from __future__ import annotations
@@ -41,17 +39,14 @@ rng = random.Random(SEED)
 # Survey instrument
 # --------------------------------------------------------------------------
 
-# dimension -> (target favourable rate company-wide, true weight on engagement)
-# The weights are the ground truth the key-driver analysis has to recover:
-# Career Growth and Recognition matter a lot and score badly (the priority
-# quadrant), while Pay scores badly but carries little weight - the finding
-# every engagement survey produces and every leadership team argues about.
-# Inclusion dimensions
+# dimension -> (target favourable rate company-wide, weight on inclusion outcome)
+# The weights shape the synthetic outcome used for descriptive association
+# analysis; they are not estimated causal effects.
 # dimension -> (target favourable rate company-wide, true weight on inclusion outcome)
 #
 # The first number controls roughly how positively employees respond.
 # The second number controls how strongly that dimension influences
-# the separate overall inclusion outcome used later in driver analysis.
+# the separate overall inclusion outcome used later in association analysis.
 
 DIMENSIONS = {
     "Belonging":                 (0.68, 0.22),
@@ -164,14 +159,11 @@ ITEMS = {
         -0.15,
     ),
 }
-# Outcome items - the engagement index, kept separate from the drivers so the
-# regression is not predicting a variable that contains its own predictors.
 # Overall inclusion outcome items.
 #
 # These are kept separate from the five Inclusion Index dimensions.
-# This allows the driver analysis to examine which dimensions are
-# associated with the overall inclusion outcome without predicting
-# an outcome that directly contains its own predictors.
+# This allows association analysis without correlating a composite with
+# an outcome that directly contains the same component scores.
 
 OUTCOME_ITEMS = {
     "inc_out_01": "Overall, this organisation is a place where people from different backgrounds can thrive",
@@ -454,10 +446,10 @@ def make_responses(teams: list[dict]) -> list[dict]:
                 latent[dim] = value
 
             inclusion_outcome_latent = (
-    sum(WEIGHTS[d] * latent[d] for d in DIMENSIONS)
-    / sum(WEIGHTS.values())
-    + rng.gauss(0, 0.42)
-)
+                sum(WEIGHTS[d] * latent[d] for d in DIMENSIONS)
+                / sum(WEIGHTS.values())
+                + rng.gauss(0, 0.42)
+            )
 
             # ---- who actually responds ---------------------------------
             # Disengaged people and shift workers answer less often: the
@@ -525,150 +517,80 @@ def enps_score(inclusion_outcome_latent: float) -> int:
 # Free-text comments
 # --------------------------------------------------------------------------
 
-# Each theme carries fragments for both survey questions and for both tones.
-# The wording deliberately overlaps between themes ("workload" language shows
-# up inside manager comments too) so that keyword tagging has to cope with
-# ambiguity rather than sorting a clean set of buckets.
+# Each theme carries fragments for both survey questions and both tones.
+# Comments are illustrative synthetic verbatims aligned to the current
+# inclusion constructs; they are not analysed as evidence about real people.
 THEMES = {
-    "workload": {
-        "dimension": "Workload & Wellbeing",
+    "belonging": {
+        "dimension": "Belonging",
         "negative": [
-            "We are permanently short-staffed and the overtime has stopped feeling optional.",
-            "Every week is firefighting; there is no capacity left for anything planned.",
-            "Two people left my team last year and neither was replaced, so the work just moved to us.",
-            "I answer messages at 10pm because there is no other way to keep up.",
-            "Holiday requests get refused because we do not have the cover.",
+            "I rarely feel connected to the wider organisation.",
+            "Some colleagues still feel like outsiders in everyday team decisions.",
+            "I do not always feel valued as a member of this team.",
         ],
         "positive": [
-            "My team lead protects our workload and it makes a real difference.",
-            "Since we added two people the pressure has come down a lot.",
+            "My team is welcoming and people look out for one another.",
+            "I feel valued and able to be myself at work.",
         ],
     },
-    "manager": {
-        "dimension": "Manager Support",
+    "voice": {
+        "dimension": "Employee Voice",
         "negative": [
-            "My manager cancels our one to ones more often than we hold them.",
-            "I raised the same issue three times and nothing came back.",
-            "Feedback only arrives when something goes wrong.",
-            "My manager avoids difficult conversations, so problems in the team just continue.",
+            "The same voices dominate meetings and other perspectives are missed.",
+            "I raised a concern but did not see any follow-up.",
+            "Ideas are requested, but it is not clear how they are considered.",
         ],
         "positive": [
-            "My manager is genuinely supportive and gives me feedback I can use.",
-            "I always know where I stand with my manager, which I value.",
-            "My team lead backs us up when things go wrong and that builds trust.",
+            "Different perspectives are actively invited in our discussions.",
+            "People can raise concerns and receive a visible response.",
         ],
     },
-    "career": {
-        "dimension": "Career Growth",
+    "psychological_safety": {
+        "dimension": "Psychological Safety",
         "negative": [
-            "There is no visible route from my role to the next one.",
-            "Promotions here go to people who are visible to leadership, not to people who deliver.",
-            "I have been in the same grade for four years with no conversation about what comes next.",
-            "Training budget exists on paper but every request gets postponed.",
-            "We hire externally for roles that people inside could grow into.",
+            "It does not always feel safe to challenge how things are done.",
+            "Mistakes can feel risky to discuss openly.",
+            "People sometimes hold back rather than ask for help.",
         ],
         "positive": [
-            "The internal move I made last year was handled really well.",
-            "My development plan is real and we actually review it.",
+            "I can raise a difficult issue without fear of unfair consequences.",
+            "Questions and mistakes are treated as opportunities to learn.",
         ],
     },
-    "recognition": {
-        "dimension": "Recognition",
+    "fairness": {
+        "dimension": "Fairness & Opportunity",
         "negative": [
-            "Good work is expected and never mentioned; mistakes are mentioned immediately.",
-            "Recognition stops at my manager and never travels further up.",
-            "The team delivered a difficult project and nobody outside noticed.",
+            "Access to development opportunities does not always feel equitable.",
+            "Promotion decisions are difficult to understand from an employee perspective.",
+            "People from some backgrounds appear to face more barriers to opportunity.",
         ],
         "positive": [
-            "The team shout-outs in our monthly meeting are a small thing that works.",
-            "My manager makes a point of recognising good work publicly.",
+            "Career opportunities are discussed openly and fairly.",
+            "The criteria for progression are clear and applied consistently.",
         ],
     },
-    "pay": {
-        "dimension": "Pay & Benefits",
+    "inclusive_leadership": {
+        "dimension": "Inclusive Leadership",
         "negative": [
-            "My salary has not kept up with inflation for two years running.",
-            "New joiners are hired above people already doing the job.",
-            "The pay bands are a secret, which makes it impossible to trust the process.",
-            "Benefits are fine but the base salary is below what I am offered elsewhere.",
+            "Leaders do not always act when inclusion concerns are raised.",
+            "Leadership messages about inclusion are not always matched by visible action.",
+            "Different perspectives are not consistently reflected in decisions.",
         ],
         "positive": [
-            "The pension contribution and the extra leave days are genuinely good.",
-        ],
-    },
-    "leadership": {
-        "dimension": "Leadership & Direction",
-        "negative": [
-            "Strategy changes every quarter and nobody explains why.",
-            "We hear about decisions that affect us from other teams first.",
-            "Town halls are broadcasts, not conversations - questions get filtered.",
-            "Leadership talks about transparency and then reorganises without warning.",
-        ],
-        "positive": [
-            "The last town hall actually answered the hard questions honestly.",
-            "The direction for the year is clear and I can see how my work fits.",
-        ],
-    },
-    "tools": {
-        "dimension": "Tools & Process",
-        "negative": [
-            "The approval process takes longer than the work itself.",
-            "Our systems do not talk to each other so we rekey the same data twice.",
-            "Getting access to a tool takes weeks and nobody owns the process.",
-        ],
-        "positive": [
-            "The new scheduling tool has saved us hours every week.",
-        ],
-    },
-    "hybrid": {
-        "dimension": "Workload & Wellbeing",
-        "negative": [
-            "The office rules changed twice this year with no explanation.",
-            "I commute an hour to sit on video calls I could take from home.",
-            "Shift patterns get published too late to plan anything around them.",
-        ],
-        "positive": [
-            "The hybrid arrangement works well for me and my team coordinates it sensibly.",
-            "Flexibility around school hours is the main reason I stay.",
-        ],
-    },
-    "inclusion": {
-        "dimension": "Inclusion & Belonging",
-        "negative": [
-            "The same voices dominate every meeting and the rest of us stop trying.",
-            "Everything important is decided in English at a speed that excludes half the room.",
-        ],
-        "positive": [
-            "My team is genuinely welcoming and people look out for each other.",
-            "I can raise a concern here without worrying about how it will be taken.",
-        ],
-    },
-    "onboarding": {
-        "dimension": "Tools & Process",
-        "negative": [
-            "My first month was three days of induction and then nothing.",
-            "I did not have a laptop for my first week, which set the tone.",
-        ],
-        "positive": [
-            "My onboarding buddy made the first weeks much easier.",
+            "Leaders make inclusion visible in decisions and everyday behaviour.",
+            "Leadership listens seriously when employees raise inclusion concerns.",
         ],
     },
 }
 
-# The label each generated theme corresponds to in the analyst's lexicon
-# (src/textlib.py). Writing these out as ground truth is what lets the text
-# pipeline be scored instead of admired.
+# The labels are retained in the generated truth file as transparent metadata
+# for any future qualitative-text evaluation.
 THEME_LABELS = {
-    "workload": "Workload & staffing",
-    "manager": "Manager relationship",
-    "career": "Career & progression",
-    "recognition": "Recognition",
-    "pay": "Pay & benefits",
-    "leadership": "Leadership & communication",
-    "tools": "Tools & process",
-    "hybrid": "Flexibility & workplace",
-    "inclusion": "Inclusion & voice",
-    "onboarding": "Joining & onboarding",
+    "belonging": "Belonging",
+    "voice": "Employee Voice",
+    "psychological_safety": "Psychological Safety",
+    "fairness": "Fairness & Opportunity",
+    "inclusive_leadership": "Inclusive Leadership",
 }
 
 OPENERS_NEGATIVE = ["", "", "", "Honestly, ", "To be direct: ", "The main issue is that "]
@@ -714,11 +636,11 @@ def make_comments(responses: list[dict]) -> list[dict]:
             # or both is itself driven by how they feel: detractors write far
             # more "what to change" than promoters. The comment mix carries
             # signal before a single word is read.
-            engagement = row["_inclusion_outcome"]
+            inclusion_signal = row["_inclusion_outcome"]
             if negative:
-                p_write = clamp(0.80 - 0.22 * engagement, 0.35, 0.97)
+                p_write = clamp(0.80 - 0.22 * inclusion_signal, 0.35, 0.97)
             else:
-                p_write = clamp(0.45 + 0.28 * engagement, 0.08, 0.90)
+                p_write = clamp(0.45 + 0.28 * inclusion_signal, 0.08, 0.90)
             if rng.random() > p_write:
                 continue
 
@@ -734,10 +656,10 @@ def make_comments(responses: list[dict]) -> list[dict]:
             if opener:
                 text = opener + text[0].lower() + text[1:]
             if negative:
-                engagement = row["_inclusion_outcome"]
-                if engagement < -0.35:
+                inclusion_signal = row["_inclusion_outcome"]
+                if inclusion_signal < -0.35:
                     pool = CLOSERS_ANGRY if rng.random() < 0.8 else CLOSERS_NEUTRAL
-                elif engagement > 0.35:
+                elif inclusion_signal > 0.35:
                     pool = CLOSERS_SOFT if rng.random() < 0.8 else CLOSERS_NEUTRAL
                 else:
                     pool = CLOSERS_NEUTRAL
@@ -814,10 +736,7 @@ def main() -> None:
     write_csv(DATA / "survey_comments.csv", comments)
     write_instrument(DATA / "survey_instrument.csv")
 
-    # Ground truth for the text pipeline: which themes each verbatim was built
-    # from. A real corpus has nothing like this, which is exactly why it is
-    # useful here - it turns "the tagger looks reasonable" into a measured
-    # precision and recall per theme.
+    # Transparent labels for the synthetic themes used to build each comment.
     write_csv(DATA / "comment_themes_truth.csv",
               [{"comment_id": c["comment_id"],
                 "true_themes": "; ".join(THEME_LABELS[t] for t in c["_true_themes"]),

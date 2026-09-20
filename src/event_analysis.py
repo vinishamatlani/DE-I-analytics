@@ -133,6 +133,7 @@ def main():
     print()
     print("DE&I EVENT EFFECTIVENESS")
     print("------------------------")
+    print("Participation, learning, experience, and cost measures")
     print(
         f"Attendance rate    : "
         f"{attendance_rate:.1%}"

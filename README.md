@@ -4,7 +4,7 @@ An end-to-end people analytics portfolio project for measuring workplace inclusi
 
 **Live dashboard:** [Open the Global Inclusion & Belonging Analytics dashboard](https://vinishamatlani.github.io/DE-I-analytics/)
 
-**Executive presentation:** [Download the five-slide executive brief](presentation/global_inclusion_executive_brief_polished.pptx)
+**Executive presentation:** [Download the five-slide executive brief](presentation/global_inclusion_executive_brief.pptx)
 
 > **Important:** This project uses synthetic data. The results do not represent real employees, a real organisation, real policies, or real organisational outcomes. The project demonstrates an analytical method and reporting workflow rather than making claims about a real workforce.
 
@@ -105,9 +105,9 @@ Segment gap = segment Inclusion Index - company Inclusion Index
 
 A negative number means the segment score is below the company-wide score. A positive number means it is above the company-wide score.
 
-### Driver analysis
+### Inclusion association analysis
 
-The project calculates Pearson correlation between each of the five inclusion dimensions and a separate overall inclusion outcome. This identifies association, not causation.
+The project calculates Pearson correlation between each of the five inclusion dimensions and a separate overall inclusion outcome. Pearson correlation describes the strength and direction of linear association; it does not prove causation.
 
 ## Dataset
 
@@ -116,12 +116,12 @@ The survey dataset represents a fictional multinational workforce:
 | Dataset characteristic | Value |
 |---|---:|
 | Employees invited | 3,800 |
-| Survey respondents | 2,753 |
-| Response rate | 72.4% |
+| Survey respondents | 2,830 |
+| Response rate | 74.5% |
 | Teams | 149 |
 | Countries | 4 |
 | Departments | 6 |
-| Respondents who left comments | 879 |
+| Respondents who left comments | 1,243 |
 | Survey fieldwork | 4-22 May 2026 |
 
 The main data files are:
@@ -162,7 +162,7 @@ It produces:
 - Five dimension scores for each respondent.
 - A 1-to-5 Inclusion Index.
 - A 0-to-100 Inclusion Index.
-- A separate overall inclusion outcome used for driver analysis.
+- A separate overall inclusion outcome used for association analysis.
 
 ### 3. Dimension summaries
 
@@ -187,13 +187,13 @@ The project analyses inclusion by:
 
 Groups with fewer than five respondents are suppressed. This demonstrates a basic confidentiality-aware reporting rule and prevents very small groups from being presented as stable organisational findings.
 
-### 5. Correlation analysis
+### 5. Association analysis
 
 Pearson correlation is calculated for each inclusion dimension against the separate overall inclusion outcome.
 
 The analysis is intentionally descriptive. It does not estimate intervention impact, prove a causal mechanism, or establish that changing one dimension will change the outcome.
 
-The implementation is in [inclusion_drivers.py](src/inclusion_drivers.py).
+The implementation is in [inclusion_drivers.py](src/inclusion_drivers.py). The filename is retained for compatibility with the existing pipeline; the user-facing method is association analysis.
 
 ### 6. Event analysis
 
@@ -280,7 +280,7 @@ The main orchestration script is [run_inclusion.py](src/run_inclusion.py). It ru
 ```text
 1. Generate synthetic inclusion survey
 2. Calculate Inclusion Index and segment gaps
-3. Run inclusion driver analysis
+3. Run inclusion association analysis
 4. Generate DE&I event data
 5. Analyse DE&I event effectiveness
 6. Build inclusion dashboard
@@ -330,8 +330,7 @@ DE-I-analytics/
 │   ├── executive_action_plan.md
 │   └── intervention_framework.md
 ├── presentation/
-│   ├── build_presentation.py
-│   └── global_inclusion_executive_brief_polished.pptx
+│   └── global_inclusion_executive_brief.pptx
 ├── src/
 │   ├── run_inclusion.py
 │   ├── generate_survey.py
@@ -353,9 +352,8 @@ DE-I-analytics/
 
 - Python 3.10 or later.
 - PowerShell, Command Prompt, or another terminal.
-- `python-pptx` if you want to regenerate the PowerPoint presentation.
 
-The core analytics pipeline uses Python’s standard library. The presentation generator uses `python-pptx`.
+The analytics pipeline uses Python’s standard library.
 
 ### Run the analytics pipeline
 
@@ -365,7 +363,7 @@ From the repository root:
 python src/run_inclusion.py
 ```
 
-This regenerates the synthetic data, summary CSV files, dashboard HTML, and executive report.
+This regenerates the synthetic data, summary CSV files, the GitHub Pages `index.html` dashboard, and the executive report.
 
 ### Validate the generated data
 
@@ -373,21 +371,7 @@ This regenerates the synthetic data, summary CSV files, dashboard HTML, and exec
 python src/validate_inclusion_data.py
 ```
 
-The validation script checks file structure, required columns, valid Likert values, score ranges, confidentiality suppression, driver correlations, and event data integrity.
-
-### Regenerate the PowerPoint
-
-Install the presentation dependency if needed:
-
-```powershell
-python -m pip install python-pptx
-```
-
-Then run:
-
-```powershell
-python presentation/build_presentation.py
-```
+The validation script checks file structure, required columns, valid Likert values, score ranges, confidentiality suppression, association values, and event data integrity.
 
 ## Outputs
 
@@ -406,7 +390,7 @@ python presentation/build_presentation.py
 - [Executive report](reports/inclusion_executive_report.md).
 - [Executive action plan](reports/executive_action_plan.md).
 - [Intervention framework](reports/intervention_framework.md).
-- [Five-slide executive presentation](presentation/global_inclusion_executive_brief_polished.pptx).
+- [Five-slide executive presentation](presentation/global_inclusion_executive_brief.pptx).
 
 ## Limitations
 
@@ -420,6 +404,7 @@ The project is intentionally a portfolio demonstration and has important limitat
 6. A five-point Likert scale limits precision.
 7. Response bias may mean respondents are not perfectly representative of all invited employees.
 8. Event participation metrics do not independently prove event impact.
+9. The survey instrument is illustrative and has not undergone external psychometric validation. A production implementation would require appropriate reliability, construct-validity, measurement-invariance, and fairness evaluation before organisational decision-making.
 
 A real organisational deployment would require stronger governance, approved data access, privacy review, longitudinal measurement, qualitative research, and an evaluation design appropriate to the intervention.
 
@@ -441,6 +426,32 @@ This project demonstrates:
 - PowerPoint generation with editable presentation elements.
 - Responsible interpretation of people analytics.
 - Translation of analysis into measurable business action.
+
+## What I Adapted and Built
+
+This project began from the MIT-licensed open-source [engagement-survey-analytics repository](https://github.com/D0M3N1C0X/engagement-survey-analytics). The original project remains acknowledged in [ATTRIBUTION.md](ATTRIBUTION.md), and this repository does not claim that every technical component was created from scratch.
+
+### Reused or adapted foundation
+
+- Synthetic workforce-generation concept.
+- Reproducible Python pipeline structure.
+- General survey analytics architecture.
+
+### Inclusion-specific work in this repository
+
+- Five inclusion constructs and survey instrument.
+- Inclusion Index construction and 0-100 transformation.
+- Separate overall inclusion outcome.
+- Demographic and workforce segmentation.
+- Inclusion gap analysis.
+- Confidentiality-aware segment suppression.
+- Pearson association analysis.
+- Synthetic DE&I event generation and effectiveness metrics.
+- Inclusion-focused GitHub Pages dashboard.
+- Intervention measurement framework.
+- Executive action plan and inclusion reporting.
+
+The adaptation substantially reframes the technical starting point around Inclusion & Belonging while preserving transparent attribution.
 
 ## Attribution
 

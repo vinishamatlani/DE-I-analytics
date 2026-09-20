@@ -16,7 +16,7 @@ STEPS = [
         "inclusion_metrics.py",
     ),
     (
-        "3/7 Run inclusion driver analysis",
+        "3/7 Run inclusion association analysis",
         "inclusion_drivers.py",
     ),
     (
@@ -70,7 +70,7 @@ def main():
     print("Key outputs:")
     print()
     print("  Dashboard:")
-    print("    inclusion_dashboard.html")
+    print("    index.html")
     print()
     print("  Survey analytics:")
     print("    data/inclusion_dimension_summary.csv")

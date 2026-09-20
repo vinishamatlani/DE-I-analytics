@@ -117,8 +117,8 @@ def main():
     )
 
     print()
-    print("INCLUSION DRIVER ANALYSIS")
-    print("-------------------------")
+    print("INCLUSION ASSOCIATION ANALYSIS")
+    print("------------------------------")
 
     for result in results:
 

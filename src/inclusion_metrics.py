@@ -138,7 +138,7 @@ def score_respondents(rows):
             1,
         )
 
-        # Separate outcome scale used for driver analysis.
+        # Separate outcome scale used for association analysis.
         outcome_values = [
             row[item_id]
             for item_id in OUTCOME_ITEMS

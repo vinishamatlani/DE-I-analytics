@@ -22,7 +22,12 @@ not be interpreted as evidence of causal relationships.
 
 | Dimension | Score / 100 | Favourable % |
 |---|---:|---:|
-| Belonging | 75.1 | 72.9% |\n| Employee Voice | 66.3 | 59.2% |\n| Psychological Safety | 64.3 | 56.0% |\n| Fairness & Opportunity | 60.6 | 49.8% |\n| Inclusive Leadership | 74.8 | 71.7% |\n
+| Belonging | 75.1 | 72.9% |
+| Employee Voice | 66.3 | 59.2% |
+| Psychological Safety | 64.3 | 56.0% |
+| Fairness & Opportunity | 60.6 | 49.8% |
+| Inclusive Leadership | 74.8 | 71.7% |
+
 ---
 
 ## 2. Workforce Gaps
@@ -36,19 +41,30 @@ Groups with fewer than five respondents are suppressed.
 
 | Segment Type | Segment | N | Index | Gap |
 |---|---|---:|---:|---:|
-| tenure_band | 6-10 years | 482 | 65.1 | -3.2 |\n| department | Commercial | 431 | 65.1 | -3.1 |\n| gender_group | Non-binary / self-described | 148 | 65.8 | -2.4 |\n| department | Operations | 731 | 65.8 | -2.4 |\n| tenure_band | 3-5 years | 767 | 66.2 | -2.1 |\n
+| tenure_band | 6-10 years | 482 | 65.1 | -3.2 |
+| department | Commercial | 431 | 65.1 | -3.1 |
+| gender_group | Non-binary / self-described | 148 | 65.8 | -2.4 |
+| department | Operations | 731 | 65.8 | -2.4 |
+| tenure_band | 3-5 years | 767 | 66.2 | -2.1 |
+
 
 ---
 
-## 3. Driver Analysis
+## 3. Inclusion Association Analysis
 
-The driver analysis uses Pearson correlation between the five
-Inclusion Index dimensions and a separate overall inclusion
-outcome.
+The association analysis uses Pearson correlation between the five
+Inclusion Index dimensions and a separate overall inclusion outcome.
+Pearson correlation describes the strength and direction of a linear
+association; it does not establish causation.
 
 | Dimension | Average Score | Correlation |
 |---|---:|---:|
-| Psychological Safety | 3.57 | 0.372 |\n| Belonging | 4.00 | 0.356 |\n| Inclusive Leadership | 3.99 | 0.353 |\n| Employee Voice | 3.65 | 0.297 |\n| Fairness & Opportunity | 3.43 | 0.272 |\n
+| Psychological Safety | 3.57 | 0.372 |
+| Belonging | 4.00 | 0.356 |
+| Inclusive Leadership | 3.99 | 0.353 |
+| Employee Voice | 3.65 | 0.297 |
+| Fairness & Opportunity | 3.43 | 0.272 |
+
 
 ### Interpretation
 
@@ -122,7 +138,12 @@ The data is entirely synthetic.
 No individual-level employee conclusions should be drawn from
 the dataset.
 
-Driver analysis is associative rather than causal.
+Association analysis is descriptive rather than causal.
+
+The survey instrument is illustrative and has not undergone external
+psychometric validation. A production implementation would require
+appropriate reliability, construct-validity, measurement-invariance
+and fairness evaluation before organisational decision-making.
 
 ---
 
@@ -135,7 +156,7 @@ This project demonstrates an end-to-end people analytics workflow:
 3. Dimension-level analysis
 4. Workforce segmentation
 5. Confidentiality suppression
-6. Driver analysis
+6. Inclusion association analysis
 7. DE&I event effectiveness analysis
 8. Executive dashboard creation
 9. Business-oriented recommendations

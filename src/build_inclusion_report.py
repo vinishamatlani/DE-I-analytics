@@ -89,7 +89,7 @@ not be interpreted as evidence of causal relationships.
         report += (
             f'| {row["dimension"]} | '
             f'{float(row["score_0_100"]):.1f} | '
-            f'{float(row["favourable_pct"]):.1f}% |\\n'
+            f'{float(row["favourable_pct"]):.1f}% |\n'
         )
 
     report += """
@@ -114,18 +114,19 @@ Groups with fewer than five respondents are suppressed.
             f'{row["segment"]} | '
             f'{row["n"]} | '
             f'{float(row["inclusion_index"]):.1f} | '
-            f'{float(row["gap_vs_company"]):+.1f} |\\n'
+            f'{float(row["gap_vs_company"]):+.1f} |\n'
         )
 
     report += f"""
 
 ---
 
-## 3. Driver Analysis
+## 3. Inclusion Association Analysis
 
-The driver analysis uses Pearson correlation between the five
-Inclusion Index dimensions and a separate overall inclusion
-outcome.
+The association analysis uses Pearson correlation between the five
+Inclusion Index dimensions and a separate overall inclusion outcome.
+Pearson correlation describes the strength and direction of a linear
+association; it does not establish causation.
 
 | Dimension | Average Score | Correlation |
 |---|---:|---:|
@@ -135,7 +136,7 @@ outcome.
         report += (
             f'| {row["dimension"]} | '
             f'{float(row["average_score_1_5"]):.2f} | '
-            f'{float(row["correlation_with_inclusion_outcome"]):.3f} |\\n'
+            f'{float(row["correlation_with_inclusion_outcome"]):.3f} |\n'
         )
 
     report += f"""
@@ -212,7 +213,12 @@ The data is entirely synthetic.
 No individual-level employee conclusions should be drawn from
 the dataset.
 
-Driver analysis is associative rather than causal.
+Association analysis is descriptive rather than causal.
+
+The survey instrument is illustrative and has not undergone external
+psychometric validation. A production implementation would require
+appropriate reliability, construct-validity, measurement-invariance
+and fairness evaluation before organisational decision-making.
 
 ---
 
@@ -225,7 +231,7 @@ This project demonstrates an end-to-end people analytics workflow:
 3. Dimension-level analysis
 4. Workforce segmentation
 5. Confidentiality suppression
-6. Driver analysis
+6. Inclusion association analysis
 7. DE&I event effectiveness analysis
 8. Executive dashboard creation
 9. Business-oriented recommendations
