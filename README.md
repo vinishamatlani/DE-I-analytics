@@ -210,11 +210,11 @@ The synthetic workforce produces an overall Inclusion Index of **68.3/100**.
 
 | Dimension | Score / 100 | Favourable |
 |---|---:|---:|
-| Belonging | 75.2 | 73.0% |
-| Inclusive Leadership | 74.5 | 71.0% |
-| Employee Voice | 66.0 | 58.7% |
-| Psychological Safety | 64.8 | 56.8% |
-| Fairness & Opportunity | 60.8 | 50.1% |
+| Belonging | 75.2 | 72.8% |
+| Inclusive Leadership | 74.5 | 71.1% |
+| Employee Voice | 66.0 | 58.1% |
+| Psychological Safety | 64.8 | 56.5% |
+| Fairness & Opportunity | 60.8 | 49.5% |
 
 The strongest dimension is **Belonging**. The lowest-scoring dimension is **Fairness & Opportunity**, making perceived fairness and access to development useful areas for further investigation.
 
@@ -424,7 +424,7 @@ This project demonstrates:
 - DE&I event effectiveness measurement.
 - Executive dashboard development.
 - Automated report generation.
-- PowerPoint generation with editable presentation elements.
+- Executive presentation development and data storytelling.
 - Responsible interpretation of people analytics.
 - Translation of analysis into measurable business action.
 
