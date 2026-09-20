@@ -5,7 +5,7 @@
 This document describes the main fields used in the Global Inclusion
 & Belonging Analytics project.
 
-All employee and DE&I event data in this project is synthetic.
+All employee and DE&I event data in this project is synthetic. The fictional workforce spans APAC, EMEA, and North America.
 
 ---
 
@@ -20,8 +20,8 @@ File:
 | response_id | Synthetic survey response identifier | String |
 | team_id | Synthetic team identifier | String |
 | department | Employee department | Category |
-| country | Synthetic country grouping | Category |
-| region | Workforce region | Category |
+| country | Synthetic country code mapped to a region | Category |
+| region | Workforce region derived from country | Category |
 | gender_group | Synthetic grouped gender category | Category |
 | age_band | Synthetic age band | Category |
 | job_level | Organisational level | Category |
@@ -41,6 +41,14 @@ File:
 ---
 
 # Inclusion Dimensions
+
+Synthetic country-to-region mapping:
+
+- `IN`, `SG` -> APAC
+- `DE`, `PL` -> EMEA
+- `US`, `CA` -> North America
+
+These geographic categories are simulation settings, not claims about a real organisation.
 
 ## Belonging
 

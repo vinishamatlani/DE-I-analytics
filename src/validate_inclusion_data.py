@@ -43,6 +43,15 @@ SEGMENT_COLUMNS = [
 
 MIN_GROUP = 5
 
+EXPECTED_REGION = {
+    "IN": "APAC",
+    "SG": "APAC",
+    "DE": "EMEA",
+    "PL": "EMEA",
+    "US": "North America",
+    "CA": "North America",
+}
+
 
 def read_csv(path):
     if not path.exists():
@@ -103,6 +112,15 @@ def check_survey_values(rows):
         )
     ]
     check(not invalid_items, "All 15 inclusion and 3 outcome items contain valid 1-5 responses")
+
+
+def check_geography(rows):
+    valid_mappings = all(
+        row["country"] in EXPECTED_REGION
+        and row["region"] == EXPECTED_REGION[row["country"]]
+        for row in rows
+    )
+    check(valid_mappings, "All country-region combinations are valid")
 
 
 def check_scored_data():
@@ -181,6 +199,7 @@ def main():
 
     print("\n2. SURVEY ITEMS")
     check_survey_values(survey_rows)
+    check_geography(survey_rows)
 
     print("\n3. INCLUSION SCORING")
     check_scored_data()

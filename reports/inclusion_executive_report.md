@@ -3,15 +3,15 @@
 ## Executive Summary
 
 The synthetic workforce survey produces an overall Inclusion
-Index of **68.2/100**.
+Index of **68.3/100**.
 
 The lowest-scoring inclusion dimension is
-**Fairness & Opportunity**, at **60.6/100**.
+**Fairness & Opportunity**, at **60.8/100**.
 
 The dimension with the strongest statistical association with
 the separate inclusion outcome is
 **Psychological Safety**
-(r = 0.372).
+(r = 0.371).
 
 These results describe patterns in a synthetic dataset and should
 not be interpreted as evidence of causal relationships.
@@ -22,11 +22,11 @@ not be interpreted as evidence of causal relationships.
 
 | Dimension | Score / 100 | Favourable % |
 |---|---:|---:|
-| Belonging | 75.1 | 72.9% |
-| Employee Voice | 66.3 | 59.2% |
-| Psychological Safety | 64.3 | 56.0% |
-| Fairness & Opportunity | 60.6 | 49.8% |
-| Inclusive Leadership | 74.8 | 71.7% |
+| Belonging | 75.2 | 72.8% |
+| Employee Voice | 66.0 | 58.1% |
+| Psychological Safety | 64.8 | 56.5% |
+| Fairness & Opportunity | 60.8 | 49.5% |
+| Inclusive Leadership | 74.5 | 71.1% |
 
 ---
 
@@ -41,11 +41,11 @@ Groups with fewer than five respondents are suppressed.
 
 | Segment Type | Segment | N | Index | Gap |
 |---|---|---:|---:|---:|
-| tenure_band | 6-10 years | 482 | 65.1 | -3.2 |
-| department | Commercial | 431 | 65.1 | -3.1 |
-| gender_group | Non-binary / self-described | 148 | 65.8 | -2.4 |
-| department | Operations | 731 | 65.8 | -2.4 |
-| tenure_band | 3-5 years | 767 | 66.2 | -2.1 |
+| department | Operations | 762 | 63.9 | -4.4 |
+| tenure_band | 6-10 years | 539 | 65.3 | -3.0 |
+| gender_group | Non-binary / self-described | 138 | 65.7 | -2.6 |
+| tenure_band | 3-5 years | 766 | 66.5 | -1.7 |
+| age_band | 18-29 | 608 | 66.7 | -1.6 |
 
 
 ---
@@ -59,11 +59,11 @@ association; it does not establish causation.
 
 | Dimension | Average Score | Correlation |
 |---|---:|---:|
-| Psychological Safety | 3.57 | 0.372 |
-| Belonging | 4.00 | 0.356 |
-| Inclusive Leadership | 3.99 | 0.353 |
-| Employee Voice | 3.65 | 0.297 |
-| Fairness & Opportunity | 3.43 | 0.272 |
+| Psychological Safety | 3.59 | 0.371 |
+| Belonging | 4.01 | 0.353 |
+| Inclusive Leadership | 3.98 | 0.352 |
+| Employee Voice | 3.64 | 0.285 |
+| Fairness & Opportunity | 3.43 | 0.267 |
 
 
 ### Interpretation

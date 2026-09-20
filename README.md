@@ -111,17 +111,18 @@ The project calculates Pearson correlation between each of the five inclusion di
 
 ## Dataset
 
-The survey dataset represents a fictional multinational workforce:
+The survey dataset represents a fictional multinational workforce across APAC, EMEA, and North America:
 
 | Dataset characteristic | Value |
 |---|---:|
 | Employees invited | 3,800 |
-| Survey respondents | 2,830 |
-| Response rate | 74.5% |
+| Survey respondents | 2,841 |
+| Response rate | 74.8% |
 | Teams | 149 |
-| Countries | 4 |
+| Countries | 6 |
 | Departments | 6 |
-| Respondents who left comments | 1,243 |
+| Unique respondents with comments | 889 |
+| Synthetic verbatim comments | 1,252 |
 | Survey fieldwork | 4-22 May 2026 |
 
 The main data files are:
@@ -205,15 +206,15 @@ The calculations are implemented in [event_analysis.py](src/event_analysis.py).
 
 ### Overall scorecard
 
-The synthetic workforce produces an overall Inclusion Index of **68.2/100**.
+The synthetic workforce produces an overall Inclusion Index of **68.3/100**.
 
 | Dimension | Score / 100 | Favourable |
 |---|---:|---:|
-| Belonging | 75.1 | 72.9% |
-| Inclusive Leadership | 74.8 | 71.7% |
-| Employee Voice | 66.3 | 59.2% |
-| Psychological Safety | 64.3 | 56.0% |
-| Fairness & Opportunity | 60.6 | 49.8% |
+| Belonging | 75.2 | 73.0% |
+| Inclusive Leadership | 74.5 | 71.0% |
+| Employee Voice | 66.0 | 58.7% |
+| Psychological Safety | 64.8 | 56.8% |
+| Fairness & Opportunity | 60.8 | 50.1% |
 
 The strongest dimension is **Belonging**. The lowest-scoring dimension is **Fairness & Opportunity**, making perceived fairness and access to development useful areas for further investigation.
 
@@ -221,11 +222,11 @@ The strongest dimension is **Belonging**. The lowest-scoring dimension is **Fair
 
 | Segment | Gap versus company |
 |---|---:|
-| 6-10 years tenure | -3.2 |
-| Commercial | -3.1 |
-| Non-binary / self-described | -2.4 |
-| Operations | -2.4 |
-| 3-5 years tenure | -2.1 |
+| Operations | -4.4 |
+| 6-10 years tenure | -3.0 |
+| Non-binary / self-described | -2.6 |
+| 3-5 years tenure | -1.7 |
+| 18-29 | -1.6 |
 
 These are observed differences in synthetic data. They are not explanations of why the differences exist.
 
@@ -233,11 +234,11 @@ These are observed differences in synthetic data. They are not explanations of w
 
 | Dimension | Pearson correlation |
 |---|---:|
-| Psychological Safety | 0.372 |
-| Belonging | 0.356 |
-| Inclusive Leadership | 0.353 |
-| Employee Voice | 0.297 |
-| Fairness & Opportunity | 0.272 |
+| Psychological Safety | 0.371 |
+| Belonging | 0.353 |
+| Inclusive Leadership | 0.352 |
+| Employee Voice | 0.285 |
+| Fairness & Opportunity | 0.267 |
 
 Psychological Safety has the strongest observed association with the separate overall inclusion outcome. The correct interpretation is:
 

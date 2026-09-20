@@ -8,18 +8,30 @@ The survey generator uses fixed random seed `7`, so regenerating the data produc
 
 ## Dataset Overview
 
-The synthetic workforce survey represents approximately:
+The synthetic workforce survey represents a fictional multinational workforce across APAC, EMEA, and North America:
 
 | Attribute | Value |
 |---|---:|
 | Employees invited | 3,800 |
-| Survey respondents | Approximately 2,800 |
+| Survey respondents | 2,841 |
+| Unique respondents with comments | 889 |
+| Synthetic verbatim comments | 1,252 |
 | Teams | Approximately 149 |
-| Countries | 4 |
+| Countries | 6 |
 | Departments | 6 |
 | Survey fieldwork | 4-22 May 2026 |
 
 The invite list includes both respondents and non-respondents. This allows the project to calculate participation rates and demonstrate how response patterns can affect interpretation.
+
+Countries are assigned to regions through an explicit synthetic mapping:
+
+| Country code | Region |
+|---|---|
+| `IN`, `SG` | APAC |
+| `DE`, `PL` | EMEA |
+| `US`, `CA` | North America |
+
+The country and region categories are simulated portfolio fields and do not represent any real organisation's workforce distribution.
 
 ## Files
 
@@ -34,8 +46,8 @@ Important fields include:
 | `response_id` | Synthetic response identifier. |
 | `team_id` | Synthetic team identifier. |
 | `department` | Synthetic department category. |
-| `country` | Synthetic country category. |
-| `region` | Synthetic region category. |
+| `country` | Synthetic country code mapped to a region. |
+| `region` | Synthetic region derived from the employee's country. |
 | `gender_group` | Synthetic grouped gender category. |
 | `age_band` | Synthetic age category. |
 | `job_level` | Individual contributor, team lead, manager, or senior leader. |

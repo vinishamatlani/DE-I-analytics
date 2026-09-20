@@ -1,1244 +1,1253 @@
 comment_id,true_themes,true_tone
-C00001,Fairness & Opportunity; Inclusive Leadership,negative
-C00002,Inclusive Leadership; Psychological Safety,positive
-C00003,Psychological Safety,negative
-C00004,Fairness & Opportunity; Employee Voice,negative
-C00005,Fairness & Opportunity,negative
-C00006,Inclusive Leadership; Belonging,positive
-C00007,Employee Voice,positive
-C00008,Belonging,positive
+C00001,Employee Voice,negative
+C00002,Fairness & Opportunity,positive
+C00003,Inclusive Leadership,negative
+C00004,Employee Voice; Inclusive Leadership,positive
+C00005,Fairness & Opportunity; Employee Voice,negative
+C00006,Belonging,negative
+C00007,Belonging,negative
+C00008,Employee Voice,negative
 C00009,Employee Voice,negative
-C00010,Psychological Safety,negative
-C00011,Belonging,positive
-C00012,Fairness & Opportunity; Inclusive Leadership,negative
-C00013,Belonging,positive
-C00014,Fairness & Opportunity,negative
-C00015,Inclusive Leadership,positive
-C00016,Fairness & Opportunity; Belonging,negative
-C00017,Fairness & Opportunity; Psychological Safety,negative
-C00018,Belonging,positive
-C00019,Belonging,negative
-C00020,Inclusive Leadership,positive
-C00021,Fairness & Opportunity,negative
+C00010,Fairness & Opportunity; Belonging,positive
+C00011,Fairness & Opportunity,negative
+C00012,Employee Voice,positive
+C00013,Belonging,negative
+C00014,Psychological Safety,negative
+C00015,Belonging,positive
+C00016,Employee Voice; Belonging,negative
+C00017,Employee Voice,negative
+C00018,Psychological Safety,positive
+C00019,Inclusive Leadership,negative
+C00020,Inclusive Leadership,negative
+C00021,Belonging,positive
 C00022,Fairness & Opportunity,negative
-C00023,Employee Voice,negative
-C00024,Belonging,positive
-C00025,Belonging; Employee Voice,negative
-C00026,Fairness & Opportunity,negative
-C00027,Employee Voice,positive
-C00028,Employee Voice,negative
-C00029,Fairness & Opportunity,negative
-C00030,Fairness & Opportunity,negative
-C00031,Inclusive Leadership,positive
-C00032,Belonging,negative
-C00033,Inclusive Leadership,negative
-C00034,Belonging,positive
-C00035,Psychological Safety; Belonging,negative
-C00036,Psychological Safety; Inclusive Leadership,negative
-C00037,Inclusive Leadership,positive
-C00038,Belonging,negative
-C00039,Inclusive Leadership,positive
-C00040,Psychological Safety; Fairness & Opportunity,positive
-C00041,Employee Voice,negative
-C00042,Fairness & Opportunity,positive
-C00043,Employee Voice,negative
-C00044,Inclusive Leadership,positive
-C00045,Psychological Safety,negative
-C00046,Inclusive Leadership,positive
-C00047,Psychological Safety,positive
+C00023,Psychological Safety,negative
+C00024,Employee Voice; Belonging,negative
+C00025,Employee Voice; Inclusive Leadership,negative
+C00026,Inclusive Leadership,positive
+C00027,Employee Voice; Inclusive Leadership,positive
+C00028,Belonging,negative
+C00029,Inclusive Leadership,positive
+C00030,Employee Voice,negative
+C00031,Fairness & Opportunity; Psychological Safety,negative
+C00032,Inclusive Leadership,positive
+C00033,Inclusive Leadership,positive
+C00034,Belonging,negative
+C00035,Employee Voice; Belonging,positive
+C00036,Fairness & Opportunity; Inclusive Leadership,positive
+C00037,Employee Voice,positive
+C00038,Inclusive Leadership,positive
+C00039,Fairness & Opportunity,negative
+C00040,Psychological Safety,positive
+C00041,Inclusive Leadership,negative
+C00042,Belonging,positive
+C00043,Fairness & Opportunity,negative
+C00044,Psychological Safety; Belonging,positive
+C00045,Fairness & Opportunity,negative
+C00046,Psychological Safety,negative
+C00047,Inclusive Leadership,positive
 C00048,Belonging,negative
-C00049,Employee Voice,positive
-C00050,Employee Voice,negative
-C00051,Inclusive Leadership,positive
-C00052,Employee Voice,negative
-C00053,Fairness & Opportunity,positive
-C00054,Inclusive Leadership,positive
-C00055,Employee Voice,negative
-C00056,Belonging; Employee Voice,positive
-C00057,Fairness & Opportunity; Belonging,positive
-C00058,Inclusive Leadership,negative
-C00059,Employee Voice,positive
-C00060,Psychological Safety,negative
-C00061,Psychological Safety,negative
-C00062,Belonging,negative
-C00063,Inclusive Leadership,negative
-C00064,Psychological Safety,negative
+C00049,Employee Voice,negative
+C00050,Inclusive Leadership,positive
+C00051,Psychological Safety; Inclusive Leadership,negative
+C00052,Fairness & Opportunity,positive
+C00053,Psychological Safety,negative
+C00054,Fairness & Opportunity,negative
+C00055,Belonging,positive
+C00056,Belonging,negative
+C00057,Employee Voice,positive
+C00058,Fairness & Opportunity; Employee Voice,negative
+C00059,Psychological Safety; Employee Voice,positive
+C00060,Belonging,negative
+C00061,Inclusive Leadership,positive
+C00062,Psychological Safety,negative
+C00063,Employee Voice,positive
+C00064,Inclusive Leadership,negative
 C00065,Fairness & Opportunity,negative
-C00066,Employee Voice; Fairness & Opportunity,positive
-C00067,Belonging,negative
-C00068,Employee Voice,negative
-C00069,Belonging,negative
-C00070,Belonging; Employee Voice,negative
-C00071,Employee Voice; Psychological Safety,positive
-C00072,Psychological Safety,negative
-C00073,Inclusive Leadership,negative
-C00074,Fairness & Opportunity,positive
-C00075,Employee Voice,negative
-C00076,Employee Voice,negative
-C00077,Inclusive Leadership; Psychological Safety,negative
-C00078,Fairness & Opportunity,negative
-C00079,Belonging; Inclusive Leadership,negative
-C00080,Psychological Safety,positive
-C00081,Belonging; Psychological Safety,negative
-C00082,Employee Voice,negative
-C00083,Belonging,positive
-C00084,Fairness & Opportunity,negative
-C00085,Employee Voice,positive
-C00086,Employee Voice,positive
-C00087,Employee Voice,negative
-C00088,Inclusive Leadership,positive
-C00089,Fairness & Opportunity,negative
-C00090,Fairness & Opportunity; Belonging,negative
-C00091,Inclusive Leadership,positive
-C00092,Psychological Safety,negative
-C00093,Psychological Safety,positive
-C00094,Psychological Safety,negative
-C00095,Inclusive Leadership; Employee Voice,positive
-C00096,Belonging,positive
-C00097,Fairness & Opportunity,positive
-C00098,Fairness & Opportunity,negative
-C00099,Employee Voice; Belonging,positive
-C00100,Employee Voice,negative
-C00101,Psychological Safety,negative
-C00102,Belonging,positive
-C00103,Inclusive Leadership,negative
-C00104,Psychological Safety,positive
-C00105,Employee Voice,negative
-C00106,Fairness & Opportunity; Inclusive Leadership,negative
-C00107,Psychological Safety,positive
-C00108,Belonging,negative
-C00109,Inclusive Leadership,positive
-C00110,Psychological Safety,negative
-C00111,Fairness & Opportunity,negative
-C00112,Psychological Safety,negative
-C00113,Fairness & Opportunity,positive
-C00114,Psychological Safety,negative
-C00115,Fairness & Opportunity; Belonging,positive
-C00116,Inclusive Leadership,positive
-C00117,Psychological Safety,negative
+C00066,Belonging,positive
+C00067,Fairness & Opportunity,negative
+C00068,Psychological Safety,positive
+C00069,Employee Voice,negative
+C00070,Inclusive Leadership,negative
+C00071,Psychological Safety,negative
+C00072,Employee Voice,positive
+C00073,Fairness & Opportunity; Inclusive Leadership,negative
+C00074,Employee Voice,positive
+C00075,Fairness & Opportunity; Employee Voice,negative
+C00076,Belonging,positive
+C00077,Belonging,negative
+C00078,Employee Voice,positive
+C00079,Inclusive Leadership,negative
+C00080,Belonging,positive
+C00081,Fairness & Opportunity; Inclusive Leadership,negative
+C00082,Belonging,positive
+C00083,Inclusive Leadership,negative
+C00084,Belonging; Employee Voice,negative
+C00085,Fairness & Opportunity,positive
+C00086,Fairness & Opportunity,negative
+C00087,Belonging; Psychological Safety,negative
+C00088,Employee Voice; Fairness & Opportunity,positive
+C00089,Belonging,negative
+C00090,Fairness & Opportunity,negative
+C00091,Psychological Safety,positive
+C00092,Fairness & Opportunity,negative
+C00093,Employee Voice,negative
+C00094,Belonging,positive
+C00095,Psychological Safety; Fairness & Opportunity,negative
+C00096,Fairness & Opportunity,positive
+C00097,Inclusive Leadership,negative
+C00098,Fairness & Opportunity; Inclusive Leadership,negative
+C00099,Belonging; Employee Voice,negative
+C00100,Psychological Safety,negative
+C00101,Fairness & Opportunity,negative
+C00102,Fairness & Opportunity; Belonging,negative
+C00103,Inclusive Leadership,positive
+C00104,Employee Voice,negative
+C00105,Psychological Safety,negative
+C00106,Inclusive Leadership,positive
+C00107,Inclusive Leadership,negative
+C00108,Employee Voice,positive
+C00109,Belonging,positive
+C00110,Fairness & Opportunity,negative
+C00111,Inclusive Leadership,positive
+C00112,Employee Voice,negative
+C00113,Inclusive Leadership,negative
+C00114,Employee Voice,negative
+C00115,Fairness & Opportunity; Psychological Safety,positive
+C00116,Employee Voice,negative
+C00117,Belonging,positive
 C00118,Inclusive Leadership,positive
-C00119,Fairness & Opportunity; Employee Voice,negative
-C00120,Inclusive Leadership; Fairness & Opportunity,positive
+C00119,Employee Voice,negative
+C00120,Belonging,negative
 C00121,Inclusive Leadership,positive
 C00122,Fairness & Opportunity,negative
-C00123,Fairness & Opportunity,positive
-C00124,Fairness & Opportunity,negative
-C00125,Belonging,positive
+C00123,Belonging,positive
+C00124,Inclusive Leadership,positive
+C00125,Belonging; Psychological Safety,negative
 C00126,Belonging,positive
-C00127,Inclusive Leadership,negative
-C00128,Psychological Safety,negative
-C00129,Inclusive Leadership,negative
-C00130,Employee Voice,negative
-C00131,Employee Voice; Psychological Safety,negative
-C00132,Inclusive Leadership,positive
-C00133,Belonging,negative
-C00134,Inclusive Leadership,negative
-C00135,Fairness & Opportunity,positive
-C00136,Belonging,negative
-C00137,Inclusive Leadership,positive
-C00138,Employee Voice; Fairness & Opportunity,negative
-C00139,Belonging; Fairness & Opportunity,negative
-C00140,Fairness & Opportunity,positive
-C00141,Fairness & Opportunity; Inclusive Leadership,negative
-C00142,Inclusive Leadership,positive
-C00143,Psychological Safety,negative
-C00144,Inclusive Leadership,positive
-C00145,Employee Voice,negative
-C00146,Inclusive Leadership,positive
-C00147,Employee Voice,negative
-C00148,Fairness & Opportunity,positive
-C00149,Belonging,positive
-C00150,Psychological Safety; Inclusive Leadership,negative
-C00151,Inclusive Leadership,positive
-C00152,Employee Voice; Fairness & Opportunity,negative
-C00153,Inclusive Leadership,positive
-C00154,Psychological Safety,negative
-C00155,Employee Voice,positive
-C00156,Employee Voice; Psychological Safety,negative
-C00157,Belonging,negative
-C00158,Inclusive Leadership; Employee Voice,negative
-C00159,Psychological Safety,positive
-C00160,Fairness & Opportunity; Belonging,negative
-C00161,Psychological Safety,positive
-C00162,Psychological Safety,positive
-C00163,Employee Voice,negative
-C00164,Belonging,positive
-C00165,Psychological Safety,negative
-C00166,Psychological Safety,negative
-C00167,Fairness & Opportunity,negative
-C00168,Fairness & Opportunity,negative
-C00169,Inclusive Leadership,negative
-C00170,Psychological Safety,positive
-C00171,Inclusive Leadership,negative
-C00172,Belonging; Psychological Safety,positive
-C00173,Inclusive Leadership,negative
-C00174,Employee Voice,positive
-C00175,Psychological Safety,negative
-C00176,Fairness & Opportunity,negative
-C00177,Inclusive Leadership,positive
-C00178,Belonging,negative
-C00179,Psychological Safety; Belonging,positive
+C00127,Inclusive Leadership; Fairness & Opportunity,negative
+C00128,Belonging; Psychological Safety,positive
+C00129,Employee Voice; Inclusive Leadership,negative
+C00130,Psychological Safety,positive
+C00131,Psychological Safety,negative
+C00132,Belonging,positive
+C00133,Belonging; Inclusive Leadership,negative
+C00134,Fairness & Opportunity,negative
+C00135,Employee Voice; Psychological Safety,positive
+C00136,Employee Voice,positive
+C00137,Inclusive Leadership,negative
+C00138,Psychological Safety,positive
+C00139,Belonging,negative
+C00140,Employee Voice; Fairness & Opportunity,positive
+C00141,Belonging,negative
+C00142,Fairness & Opportunity,negative
+C00143,Employee Voice,negative
+C00144,Belonging,negative
+C00145,Fairness & Opportunity,negative
+C00146,Belonging; Inclusive Leadership,negative
+C00147,Fairness & Opportunity; Inclusive Leadership,positive
+C00148,Employee Voice,negative
+C00149,Psychological Safety,positive
+C00150,Fairness & Opportunity; Employee Voice,positive
+C00151,Employee Voice,positive
+C00152,Inclusive Leadership,negative
+C00153,Inclusive Leadership,negative
+C00154,Fairness & Opportunity,positive
+C00155,Employee Voice; Belonging,negative
+C00156,Employee Voice,positive
+C00157,Fairness & Opportunity,positive
+C00158,Fairness & Opportunity,negative
+C00159,Inclusive Leadership,positive
+C00160,Belonging,negative
+C00161,Inclusive Leadership,positive
+C00162,Belonging,negative
+C00163,Inclusive Leadership,positive
+C00164,Inclusive Leadership,negative
+C00165,Belonging,negative
+C00166,Inclusive Leadership,positive
+C00167,Belonging,negative
+C00168,Belonging; Employee Voice,negative
+C00169,Belonging,negative
+C00170,Inclusive Leadership,negative
+C00171,Fairness & Opportunity,positive
+C00172,Inclusive Leadership; Psychological Safety,negative
+C00173,Belonging,positive
+C00174,Psychological Safety; Belonging,negative
+C00175,Belonging,positive
+C00176,Inclusive Leadership,positive
+C00177,Inclusive Leadership,negative
+C00178,Psychological Safety,negative
+C00179,Psychological Safety,negative
 C00180,Fairness & Opportunity,negative
-C00181,Psychological Safety,negative
-C00182,Fairness & Opportunity,negative
-C00183,Belonging,positive
-C00184,Fairness & Opportunity,positive
+C00181,Employee Voice,negative
+C00182,Belonging,positive
+C00183,Psychological Safety,negative
+C00184,Inclusive Leadership; Employee Voice,positive
 C00185,Fairness & Opportunity,negative
-C00186,Employee Voice,positive
-C00187,Psychological Safety; Inclusive Leadership,negative
-C00188,Belonging,positive
-C00189,Psychological Safety,positive
-C00190,Psychological Safety,positive
-C00191,Psychological Safety,negative
-C00192,Employee Voice,positive
-C00193,Fairness & Opportunity,negative
-C00194,Employee Voice,positive
-C00195,Employee Voice,positive
-C00196,Fairness & Opportunity; Inclusive Leadership,negative
-C00197,Employee Voice,negative
-C00198,Belonging,positive
-C00199,Psychological Safety; Employee Voice,negative
-C00200,Fairness & Opportunity,positive
-C00201,Employee Voice,negative
-C00202,Fairness & Opportunity,negative
-C00203,Belonging,positive
-C00204,Belonging,negative
-C00205,Fairness & Opportunity,negative
-C00206,Fairness & Opportunity,negative
-C00207,Employee Voice; Belonging,negative
-C00208,Inclusive Leadership,positive
-C00209,Fairness & Opportunity,negative
-C00210,Inclusive Leadership; Belonging,negative
-C00211,Belonging,positive
-C00212,Fairness & Opportunity,negative
-C00213,Fairness & Opportunity,negative
-C00214,Employee Voice; Psychological Safety,negative
-C00215,Belonging,positive
-C00216,Belonging,negative
-C00217,Inclusive Leadership,positive
-C00218,Psychological Safety; Employee Voice,negative
-C00219,Fairness & Opportunity; Psychological Safety,positive
-C00220,Inclusive Leadership,positive
-C00221,Fairness & Opportunity,negative
-C00222,Employee Voice; Inclusive Leadership,positive
+C00186,Employee Voice,negative
+C00187,Psychological Safety,positive
+C00188,Employee Voice,negative
+C00189,Fairness & Opportunity,negative
+C00190,Belonging,positive
+C00191,Psychological Safety,positive
+C00192,Employee Voice,negative
+C00193,Belonging; Fairness & Opportunity,positive
+C00194,Inclusive Leadership,negative
+C00195,Belonging,positive
+C00196,Psychological Safety; Fairness & Opportunity,negative
+C00197,Inclusive Leadership,positive
+C00198,Inclusive Leadership,positive
+C00199,Belonging,positive
+C00200,Psychological Safety,negative
+C00201,Belonging; Inclusive Leadership,negative
+C00202,Inclusive Leadership,positive
+C00203,Fairness & Opportunity,negative
+C00204,Inclusive Leadership,positive
+C00205,Belonging,negative
+C00206,Psychological Safety; Employee Voice,negative
+C00207,Employee Voice,positive
+C00208,Fairness & Opportunity,negative
+C00209,Employee Voice; Belonging,positive
+C00210,Psychological Safety,negative
+C00211,Belonging,negative
+C00212,Psychological Safety; Inclusive Leadership,negative
+C00213,Fairness & Opportunity,positive
+C00214,Psychological Safety,negative
+C00215,Belonging,negative
+C00216,Inclusive Leadership,positive
+C00217,Employee Voice,negative
+C00218,Employee Voice,negative
+C00219,Inclusive Leadership; Employee Voice,negative
+C00220,Fairness & Opportunity,positive
+C00221,Fairness & Opportunity; Inclusive Leadership,negative
+C00222,Inclusive Leadership,positive
 C00223,Fairness & Opportunity,negative
-C00224,Employee Voice,negative
-C00225,Fairness & Opportunity,negative
-C00226,Psychological Safety; Inclusive Leadership,negative
-C00227,Fairness & Opportunity,positive
-C00228,Fairness & Opportunity; Belonging,positive
-C00229,Fairness & Opportunity,negative
+C00224,Psychological Safety,positive
+C00225,Psychological Safety,positive
+C00226,Belonging,positive
+C00227,Inclusive Leadership,negative
+C00228,Employee Voice,negative
+C00229,Fairness & Opportunity,positive
 C00230,Employee Voice,negative
-C00231,Inclusive Leadership,negative
-C00232,Fairness & Opportunity,negative
-C00233,Inclusive Leadership,negative
-C00234,Psychological Safety,negative
-C00235,Fairness & Opportunity,positive
-C00236,Inclusive Leadership,negative
-C00237,Belonging,positive
-C00238,Psychological Safety; Belonging,negative
-C00239,Fairness & Opportunity,negative
-C00240,Psychological Safety,positive
+C00231,Employee Voice; Fairness & Opportunity,negative
+C00232,Belonging,negative
+C00233,Employee Voice,positive
+C00234,Fairness & Opportunity,negative
+C00235,Psychological Safety,positive
+C00236,Fairness & Opportunity,negative
+C00237,Psychological Safety,positive
+C00238,Psychological Safety,positive
+C00239,Psychological Safety; Inclusive Leadership,positive
+C00240,Belonging,negative
 C00241,Fairness & Opportunity,negative
 C00242,Employee Voice,positive
-C00243,Fairness & Opportunity; Psychological Safety,positive
-C00244,Belonging,positive
-C00245,Belonging; Psychological Safety,negative
-C00246,Employee Voice,negative
-C00247,Inclusive Leadership,positive
-C00248,Belonging,negative
+C00243,Belonging,negative
+C00244,Fairness & Opportunity; Inclusive Leadership,positive
+C00245,Belonging,negative
+C00246,Inclusive Leadership,negative
+C00247,Inclusive Leadership,negative
+C00248,Psychological Safety; Belonging,negative
 C00249,Psychological Safety,positive
-C00250,Fairness & Opportunity,negative
-C00251,Inclusive Leadership,positive
-C00252,Psychological Safety,negative
-C00253,Belonging,positive
+C00250,Fairness & Opportunity; Psychological Safety,positive
+C00251,Belonging,positive
+C00252,Inclusive Leadership,negative
+C00253,Psychological Safety; Belonging,positive
 C00254,Belonging,negative
-C00255,Psychological Safety,positive
-C00256,Belonging,negative
+C00255,Psychological Safety; Belonging,positive
+C00256,Inclusive Leadership,positive
 C00257,Psychological Safety,negative
-C00258,Employee Voice; Psychological Safety,positive
-C00259,Psychological Safety,negative
-C00260,Fairness & Opportunity,negative
-C00261,Employee Voice,negative
-C00262,Inclusive Leadership,positive
-C00263,Inclusive Leadership,positive
-C00264,Psychological Safety,negative
-C00265,Inclusive Leadership,positive
-C00266,Psychological Safety,positive
-C00267,Fairness & Opportunity,negative
-C00268,Employee Voice,negative
-C00269,Psychological Safety,negative
-C00270,Belonging,negative
-C00271,Psychological Safety; Employee Voice,negative
-C00272,Belonging,negative
-C00273,Inclusive Leadership; Fairness & Opportunity,positive
-C00274,Belonging,negative
-C00275,Employee Voice,positive
-C00276,Belonging,negative
-C00277,Psychological Safety,positive
-C00278,Inclusive Leadership,negative
-C00279,Fairness & Opportunity,positive
+C00258,Inclusive Leadership; Belonging,positive
+C00259,Employee Voice; Inclusive Leadership,negative
+C00260,Employee Voice,positive
+C00261,Psychological Safety,negative
+C00262,Employee Voice; Inclusive Leadership,positive
+C00263,Inclusive Leadership; Fairness & Opportunity,negative
+C00264,Belonging; Psychological Safety,negative
+C00265,Employee Voice; Fairness & Opportunity,positive
+C00266,Belonging,negative
+C00267,Fairness & Opportunity; Employee Voice,positive
+C00268,Inclusive Leadership,negative
+C00269,Psychological Safety,positive
+C00270,Inclusive Leadership,negative
+C00271,Inclusive Leadership,negative
+C00272,Belonging,positive
+C00273,Psychological Safety,negative
+C00274,Psychological Safety,negative
+C00275,Employee Voice; Fairness & Opportunity,positive
+C00276,Inclusive Leadership,positive
+C00277,Employee Voice,negative
+C00278,Psychological Safety,negative
+C00279,Inclusive Leadership,positive
 C00280,Fairness & Opportunity,negative
-C00281,Employee Voice,negative
-C00282,Inclusive Leadership,positive
-C00283,Belonging,negative
-C00284,Fairness & Opportunity,negative
+C00281,Inclusive Leadership,negative
+C00282,Psychological Safety; Inclusive Leadership,negative
+C00283,Fairness & Opportunity,positive
+C00284,Inclusive Leadership,negative
 C00285,Psychological Safety,positive
-C00286,Fairness & Opportunity,positive
-C00287,Psychological Safety; Inclusive Leadership,positive
-C00288,Psychological Safety; Belonging,negative
-C00289,Belonging,positive
-C00290,Psychological Safety; Employee Voice,negative
-C00291,Inclusive Leadership; Psychological Safety,positive
-C00292,Employee Voice; Fairness & Opportunity,negative
-C00293,Belonging,positive
+C00286,Belonging,negative
+C00287,Belonging,negative
+C00288,Employee Voice; Belonging,negative
+C00289,Fairness & Opportunity,positive
+C00290,Inclusive Leadership,negative
+C00291,Belonging,negative
+C00292,Psychological Safety,negative
+C00293,Employee Voice,positive
 C00294,Employee Voice,positive
-C00295,Inclusive Leadership,positive
-C00296,Belonging; Employee Voice,negative
-C00297,Inclusive Leadership,positive
-C00298,Inclusive Leadership; Employee Voice,negative
-C00299,Psychological Safety,positive
-C00300,Employee Voice,negative
-C00301,Psychological Safety,positive
-C00302,Employee Voice,negative
-C00303,Psychological Safety,positive
-C00304,Psychological Safety; Inclusive Leadership,positive
-C00305,Employee Voice,positive
-C00306,Belonging,positive
-C00307,Employee Voice,positive
-C00308,Fairness & Opportunity,negative
-C00309,Psychological Safety,negative
-C00310,Belonging,positive
-C00311,Belonging,negative
-C00312,Inclusive Leadership,positive
-C00313,Belonging; Inclusive Leadership,negative
-C00314,Psychological Safety,negative
-C00315,Belonging; Employee Voice,positive
-C00316,Belonging; Fairness & Opportunity,positive
-C00317,Inclusive Leadership,negative
-C00318,Employee Voice,positive
-C00319,Inclusive Leadership,positive
-C00320,Employee Voice; Belonging,negative
-C00321,Psychological Safety,positive
-C00322,Fairness & Opportunity,negative
-C00323,Employee Voice,positive
-C00324,Psychological Safety,negative
-C00325,Employee Voice,positive
-C00326,Psychological Safety,negative
-C00327,Employee Voice,negative
-C00328,Inclusive Leadership,positive
-C00329,Employee Voice,negative
+C00295,Fairness & Opportunity,negative
+C00296,Employee Voice; Belonging,negative
+C00297,Psychological Safety,positive
+C00298,Inclusive Leadership,positive
+C00299,Belonging,negative
+C00300,Inclusive Leadership,positive
+C00301,Fairness & Opportunity,negative
+C00302,Psychological Safety; Belonging,positive
+C00303,Psychological Safety; Fairness & Opportunity,negative
+C00304,Belonging; Inclusive Leadership,positive
+C00305,Psychological Safety,positive
+C00306,Employee Voice,negative
+C00307,Fairness & Opportunity,negative
+C00308,Inclusive Leadership,positive
+C00309,Belonging,positive
+C00310,Fairness & Opportunity,negative
+C00311,Employee Voice,positive
+C00312,Employee Voice,negative
+C00313,Fairness & Opportunity,negative
+C00314,Employee Voice,positive
+C00315,Inclusive Leadership,negative
+C00316,Belonging,negative
+C00317,Inclusive Leadership,positive
+C00318,Fairness & Opportunity; Inclusive Leadership,negative
+C00319,Psychological Safety,positive
+C00320,Inclusive Leadership,negative
+C00321,Fairness & Opportunity,positive
+C00322,Employee Voice,negative
+C00323,Belonging,positive
+C00324,Belonging,positive
+C00325,Inclusive Leadership; Fairness & Opportunity,negative
+C00326,Employee Voice,positive
+C00327,Belonging; Employee Voice,positive
+C00328,Psychological Safety; Inclusive Leadership,negative
+C00329,Fairness & Opportunity,negative
 C00330,Employee Voice,positive
-C00331,Inclusive Leadership,negative
-C00332,Belonging,positive
-C00333,Psychological Safety; Fairness & Opportunity,negative
-C00334,Fairness & Opportunity,negative
-C00335,Fairness & Opportunity,negative
-C00336,Employee Voice,positive
-C00337,Inclusive Leadership,negative
-C00338,Belonging; Fairness & Opportunity,positive
-C00339,Belonging,negative
-C00340,Belonging,negative
-C00341,Psychological Safety,negative
-C00342,Belonging,positive
-C00343,Employee Voice,negative
-C00344,Inclusive Leadership,negative
-C00345,Belonging,negative
-C00346,Belonging,positive
-C00347,Inclusive Leadership,negative
-C00348,Inclusive Leadership; Employee Voice,negative
-C00349,Fairness & Opportunity,negative
-C00350,Employee Voice; Fairness & Opportunity,negative
-C00351,Belonging,positive
-C00352,Psychological Safety,negative
-C00353,Belonging,positive
-C00354,Belonging,negative
-C00355,Psychological Safety,negative
-C00356,Fairness & Opportunity,negative
-C00357,Belonging,positive
-C00358,Employee Voice,negative
-C00359,Belonging,negative
+C00331,Psychological Safety,negative
+C00332,Employee Voice,positive
+C00333,Belonging,positive
+C00334,Belonging,negative
+C00335,Psychological Safety,positive
+C00336,Fairness & Opportunity,negative
+C00337,Inclusive Leadership,positive
+C00338,Inclusive Leadership; Belonging,positive
+C00339,Belonging,positive
+C00340,Psychological Safety,negative
+C00341,Inclusive Leadership,negative
+C00342,Fairness & Opportunity; Inclusive Leadership,negative
+C00343,Inclusive Leadership,negative
+C00344,Employee Voice,negative
+C00345,Psychological Safety; Employee Voice,negative
+C00346,Psychological Safety,negative
+C00347,Inclusive Leadership,positive
+C00348,Fairness & Opportunity,negative
+C00349,Belonging; Fairness & Opportunity,negative
+C00350,Employee Voice,positive
+C00351,Psychological Safety; Inclusive Leadership,negative
+C00352,Employee Voice,positive
+C00353,Employee Voice,negative
+C00354,Belonging,positive
+C00355,Psychological Safety; Fairness & Opportunity,positive
+C00356,Inclusive Leadership,positive
+C00357,Employee Voice,positive
+C00358,Inclusive Leadership,negative
+C00359,Fairness & Opportunity,positive
 C00360,Fairness & Opportunity,negative
-C00361,Psychological Safety,negative
-C00362,Belonging,negative
+C00361,Employee Voice,positive
+C00362,Belonging; Psychological Safety,positive
 C00363,Employee Voice,negative
-C00364,Psychological Safety,negative
-C00365,Fairness & Opportunity,positive
-C00366,Fairness & Opportunity; Employee Voice,negative
-C00367,Inclusive Leadership,negative
+C00364,Fairness & Opportunity,positive
+C00365,Inclusive Leadership,negative
+C00366,Fairness & Opportunity,negative
+C00367,Employee Voice,positive
 C00368,Inclusive Leadership,negative
-C00369,Fairness & Opportunity; Belonging,positive
-C00370,Fairness & Opportunity; Belonging,positive
-C00371,Belonging,positive
-C00372,Psychological Safety,negative
-C00373,Inclusive Leadership,negative
-C00374,Psychological Safety; Belonging,negative
-C00375,Fairness & Opportunity,positive
-C00376,Belonging,positive
-C00377,Psychological Safety,negative
-C00378,Employee Voice,positive
-C00379,Employee Voice,positive
-C00380,Belonging,negative
+C00369,Psychological Safety,negative
+C00370,Psychological Safety; Belonging,negative
+C00371,Employee Voice; Inclusive Leadership,positive
+C00372,Fairness & Opportunity,negative
+C00373,Psychological Safety; Fairness & Opportunity,negative
+C00374,Employee Voice,positive
+C00375,Fairness & Opportunity,negative
+C00376,Employee Voice,positive
+C00377,Fairness & Opportunity,negative
+C00378,Belonging,positive
+C00379,Psychological Safety,positive
+C00380,Psychological Safety,negative
 C00381,Employee Voice,negative
-C00382,Inclusive Leadership; Psychological Safety,positive
-C00383,Employee Voice,negative
-C00384,Belonging,positive
-C00385,Psychological Safety,negative
-C00386,Belonging; Psychological Safety,positive
-C00387,Belonging,positive
-C00388,Employee Voice; Inclusive Leadership,positive
-C00389,Fairness & Opportunity; Psychological Safety,negative
-C00390,Belonging; Inclusive Leadership,positive
-C00391,Inclusive Leadership,negative
-C00392,Employee Voice,positive
-C00393,Employee Voice,positive
-C00394,Psychological Safety,negative
-C00395,Belonging,positive
-C00396,Fairness & Opportunity; Employee Voice,negative
-C00397,Inclusive Leadership,negative
-C00398,Belonging,positive
-C00399,Belonging,negative
-C00400,Psychological Safety,negative
-C00401,Employee Voice,positive
-C00402,Fairness & Opportunity,negative
-C00403,Employee Voice,negative
-C00404,Belonging; Fairness & Opportunity,negative
-C00405,Psychological Safety; Inclusive Leadership,positive
-C00406,Employee Voice; Fairness & Opportunity,negative
-C00407,Fairness & Opportunity,negative
-C00408,Belonging,positive
-C00409,Employee Voice; Inclusive Leadership,positive
-C00410,Belonging,negative
-C00411,Inclusive Leadership,positive
-C00412,Employee Voice,negative
-C00413,Psychological Safety,positive
-C00414,Inclusive Leadership; Psychological Safety,negative
-C00415,Belonging,positive
-C00416,Belonging,negative
-C00417,Inclusive Leadership,positive
+C00382,Fairness & Opportunity,positive
+C00383,Psychological Safety,negative
+C00384,Belonging; Inclusive Leadership,positive
+C00385,Fairness & Opportunity,positive
+C00386,Belonging,negative
+C00387,Fairness & Opportunity,negative
+C00388,Employee Voice,positive
+C00389,Psychological Safety,negative
+C00390,Employee Voice; Belonging,positive
+C00391,Psychological Safety,negative
+C00392,Belonging,positive
+C00393,Psychological Safety,negative
+C00394,Fairness & Opportunity; Psychological Safety,negative
+C00395,Psychological Safety,negative
+C00396,Employee Voice,positive
+C00397,Psychological Safety; Inclusive Leadership,negative
+C00398,Psychological Safety; Employee Voice,negative
+C00399,Psychological Safety; Inclusive Leadership,negative
+C00400,Employee Voice,positive
+C00401,Psychological Safety,negative
+C00402,Fairness & Opportunity; Belonging,positive
+C00403,Inclusive Leadership,negative
+C00404,Employee Voice,positive
+C00405,Belonging; Psychological Safety,negative
+C00406,Inclusive Leadership,positive
+C00407,Employee Voice,negative
+C00408,Psychological Safety,negative
+C00409,Belonging; Employee Voice,positive
+C00410,Fairness & Opportunity,negative
+C00411,Psychological Safety,positive
+C00412,Psychological Safety,negative
+C00413,Inclusive Leadership,negative
+C00414,Employee Voice,positive
+C00415,Employee Voice; Belonging,negative
+C00416,Inclusive Leadership; Psychological Safety,negative
+C00417,Belonging,positive
 C00418,Psychological Safety,negative
-C00419,Psychological Safety,negative
-C00420,Belonging,positive
-C00421,Fairness & Opportunity,negative
-C00422,Employee Voice,negative
-C00423,Inclusive Leadership,positive
-C00424,Psychological Safety,negative
-C00425,Inclusive Leadership,negative
-C00426,Employee Voice,negative
-C00427,Fairness & Opportunity,positive
-C00428,Inclusive Leadership; Psychological Safety,negative
-C00429,Fairness & Opportunity,negative
+C00419,Fairness & Opportunity,positive
+C00420,Psychological Safety,negative
+C00421,Inclusive Leadership,positive
+C00422,Psychological Safety,negative
+C00423,Belonging,negative
+C00424,Psychological Safety,positive
+C00425,Employee Voice,negative
+C00426,Belonging,positive
+C00427,Psychological Safety,negative
+C00428,Inclusive Leadership; Fairness & Opportunity,positive
+C00429,Psychological Safety,negative
 C00430,Inclusive Leadership,positive
-C00431,Psychological Safety,negative
-C00432,Inclusive Leadership,positive
-C00433,Fairness & Opportunity; Inclusive Leadership,negative
-C00434,Belonging; Fairness & Opportunity,negative
-C00435,Fairness & Opportunity,positive
-C00436,Fairness & Opportunity; Employee Voice,negative
-C00437,Employee Voice,positive
+C00431,Psychological Safety; Fairness & Opportunity,positive
+C00432,Psychological Safety,negative
+C00433,Inclusive Leadership; Fairness & Opportunity,positive
+C00434,Psychological Safety,negative
+C00435,Belonging; Inclusive Leadership,positive
+C00436,Fairness & Opportunity,negative
+C00437,Psychological Safety,negative
 C00438,Belonging,negative
-C00439,Psychological Safety; Employee Voice,negative
-C00440,Belonging; Psychological Safety,negative
+C00439,Employee Voice; Fairness & Opportunity,positive
+C00440,Employee Voice,negative
 C00441,Inclusive Leadership,positive
-C00442,Fairness & Opportunity,negative
-C00443,Inclusive Leadership,positive
+C00442,Psychological Safety,negative
+C00443,Fairness & Opportunity; Psychological Safety,positive
 C00444,Employee Voice,negative
-C00445,Inclusive Leadership,negative
-C00446,Employee Voice,negative
-C00447,Inclusive Leadership,positive
-C00448,Psychological Safety,negative
-C00449,Employee Voice; Psychological Safety,positive
-C00450,Inclusive Leadership,positive
-C00451,Employee Voice,positive
-C00452,Employee Voice,negative
-C00453,Belonging; Employee Voice,negative
-C00454,Employee Voice; Fairness & Opportunity,negative
-C00455,Fairness & Opportunity,negative
-C00456,Belonging,positive
-C00457,Belonging,negative
-C00458,Fairness & Opportunity,positive
-C00459,Fairness & Opportunity,negative
-C00460,Psychological Safety,positive
-C00461,Employee Voice,positive
-C00462,Psychological Safety,negative
-C00463,Belonging,positive
-C00464,Belonging; Employee Voice,negative
-C00465,Psychological Safety,positive
-C00466,Employee Voice,positive
-C00467,Belonging; Fairness & Opportunity,positive
-C00468,Inclusive Leadership; Psychological Safety,negative
-C00469,Belonging,positive
-C00470,Belonging; Inclusive Leadership,negative
-C00471,Fairness & Opportunity,negative
-C00472,Inclusive Leadership; Fairness & Opportunity,positive
-C00473,Inclusive Leadership,positive
-C00474,Inclusive Leadership,negative
-C00475,Belonging; Employee Voice,positive
-C00476,Belonging,negative
-C00477,Inclusive Leadership,positive
-C00478,Employee Voice,negative
+C00445,Inclusive Leadership; Psychological Safety,positive
+C00446,Inclusive Leadership,negative
+C00447,Belonging,positive
+C00448,Fairness & Opportunity; Belonging,negative
+C00449,Fairness & Opportunity,negative
+C00450,Fairness & Opportunity,negative
+C00451,Belonging,positive
+C00452,Fairness & Opportunity,positive
+C00453,Employee Voice; Psychological Safety,negative
+C00454,Psychological Safety,positive
+C00455,Employee Voice,negative
+C00456,Psychological Safety; Employee Voice,negative
+C00457,Inclusive Leadership,positive
+C00458,Belonging,positive
+C00459,Psychological Safety,positive
+C00460,Belonging,positive
+C00461,Employee Voice; Inclusive Leadership,negative
+C00462,Inclusive Leadership,positive
+C00463,Fairness & Opportunity,negative
+C00464,Psychological Safety,positive
+C00465,Inclusive Leadership; Belonging,negative
+C00466,Psychological Safety; Employee Voice,positive
+C00467,Belonging,positive
+C00468,Belonging,positive
+C00469,Psychological Safety,negative
+C00470,Belonging,positive
+C00471,Psychological Safety,positive
+C00472,Psychological Safety; Fairness & Opportunity,negative
+C00473,Employee Voice,positive
+C00474,Fairness & Opportunity,negative
+C00475,Employee Voice,positive
+C00476,Inclusive Leadership,negative
+C00477,Belonging,negative
+C00478,Inclusive Leadership,positive
 C00479,Psychological Safety,negative
-C00480,Inclusive Leadership,positive
-C00481,Psychological Safety,positive
-C00482,Belonging; Fairness & Opportunity,positive
-C00483,Employee Voice,negative
-C00484,Belonging,negative
-C00485,Psychological Safety; Inclusive Leadership,positive
-C00486,Psychological Safety; Employee Voice,negative
-C00487,Fairness & Opportunity,positive
-C00488,Employee Voice,negative
-C00489,Psychological Safety,positive
-C00490,Fairness & Opportunity; Belonging,negative
+C00480,Fairness & Opportunity,positive
+C00481,Belonging,positive
+C00482,Fairness & Opportunity,negative
+C00483,Psychological Safety; Inclusive Leadership,positive
+C00484,Psychological Safety,negative
+C00485,Fairness & Opportunity,positive
+C00486,Inclusive Leadership,negative
+C00487,Employee Voice,positive
+C00488,Inclusive Leadership,negative
+C00489,Employee Voice,positive
+C00490,Fairness & Opportunity,negative
 C00491,Inclusive Leadership,positive
-C00492,Belonging,positive
-C00493,Fairness & Opportunity,positive
-C00494,Inclusive Leadership; Psychological Safety,positive
-C00495,Employee Voice; Belonging,negative
+C00492,Employee Voice,negative
+C00493,Inclusive Leadership; Employee Voice,positive
+C00494,Employee Voice,negative
+C00495,Belonging,positive
 C00496,Fairness & Opportunity,negative
-C00497,Belonging; Fairness & Opportunity,positive
-C00498,Fairness & Opportunity,negative
-C00499,Fairness & Opportunity,negative
-C00500,Inclusive Leadership,positive
-C00501,Psychological Safety,negative
-C00502,Inclusive Leadership,positive
-C00503,Psychological Safety,negative
+C00497,Psychological Safety,negative
+C00498,Inclusive Leadership,positive
+C00499,Psychological Safety,negative
+C00500,Fairness & Opportunity,negative
+C00501,Inclusive Leadership; Psychological Safety,positive
+C00502,Psychological Safety,positive
+C00503,Employee Voice,negative
 C00504,Belonging,positive
-C00505,Psychological Safety,negative
-C00506,Employee Voice; Belonging,positive
-C00507,Belonging,negative
-C00508,Fairness & Opportunity,positive
-C00509,Psychological Safety,negative
-C00510,Belonging,negative
-C00511,Employee Voice,positive
-C00512,Inclusive Leadership,positive
-C00513,Belonging,negative
-C00514,Inclusive Leadership,positive
-C00515,Belonging,negative
+C00505,Fairness & Opportunity,negative
+C00506,Fairness & Opportunity,positive
+C00507,Fairness & Opportunity,negative
+C00508,Psychological Safety,positive
+C00509,Belonging,negative
+C00510,Psychological Safety; Employee Voice,positive
+C00511,Inclusive Leadership,negative
+C00512,Psychological Safety,positive
+C00513,Inclusive Leadership,negative
+C00514,Employee Voice; Belonging,positive
+C00515,Inclusive Leadership,positive
 C00516,Psychological Safety,negative
-C00517,Fairness & Opportunity,negative
-C00518,Inclusive Leadership,positive
-C00519,Fairness & Opportunity,negative
-C00520,Belonging,positive
-C00521,Inclusive Leadership,positive
-C00522,Inclusive Leadership,negative
-C00523,Inclusive Leadership,negative
-C00524,Employee Voice,positive
-C00525,Belonging,negative
-C00526,Employee Voice,negative
-C00527,Belonging,positive
-C00528,Belonging,positive
-C00529,Psychological Safety,negative
-C00530,Belonging,negative
-C00531,Employee Voice,positive
-C00532,Fairness & Opportunity,negative
-C00533,Belonging,positive
-C00534,Belonging,negative
-C00535,Employee Voice,positive
+C00517,Inclusive Leadership,positive
+C00518,Inclusive Leadership,negative
+C00519,Inclusive Leadership,positive
+C00520,Employee Voice,positive
+C00521,Employee Voice,positive
+C00522,Fairness & Opportunity,negative
+C00523,Psychological Safety,positive
+C00524,Fairness & Opportunity,negative
+C00525,Belonging,positive
+C00526,Belonging,positive
+C00527,Psychological Safety; Fairness & Opportunity,negative
+C00528,Belonging; Employee Voice,positive
+C00529,Employee Voice,negative
+C00530,Inclusive Leadership,negative
+C00531,Psychological Safety; Fairness & Opportunity,negative
+C00532,Inclusive Leadership,positive
+C00533,Fairness & Opportunity; Psychological Safety,negative
+C00534,Employee Voice,positive
+C00535,Fairness & Opportunity,negative
 C00536,Fairness & Opportunity,negative
 C00537,Employee Voice,positive
-C00538,Psychological Safety,negative
-C00539,Inclusive Leadership,positive
-C00540,Psychological Safety,negative
-C00541,Employee Voice,positive
-C00542,Belonging,positive
-C00543,Fairness & Opportunity,negative
-C00544,Belonging,positive
-C00545,Psychological Safety,positive
-C00546,Inclusive Leadership,positive
-C00547,Fairness & Opportunity,negative
-C00548,Belonging; Psychological Safety,negative
-C00549,Inclusive Leadership; Psychological Safety,positive
-C00550,Psychological Safety,negative
-C00551,Inclusive Leadership,positive
-C00552,Psychological Safety,negative
+C00538,Inclusive Leadership,positive
+C00539,Fairness & Opportunity; Psychological Safety,negative
+C00540,Employee Voice,negative
+C00541,Inclusive Leadership,positive
+C00542,Psychological Safety,negative
+C00543,Inclusive Leadership,negative
+C00544,Inclusive Leadership,negative
+C00545,Fairness & Opportunity,positive
+C00546,Fairness & Opportunity,negative
+C00547,Psychological Safety; Fairness & Opportunity,positive
+C00548,Belonging,negative
+C00549,Employee Voice,positive
+C00550,Employee Voice,negative
+C00551,Fairness & Opportunity,positive
+C00552,Employee Voice,negative
 C00553,Belonging; Employee Voice,positive
 C00554,Inclusive Leadership,negative
-C00555,Fairness & Opportunity,positive
-C00556,Employee Voice,positive
-C00557,Belonging,negative
-C00558,Psychological Safety,positive
-C00559,Employee Voice,negative
-C00560,Belonging,positive
-C00561,Inclusive Leadership,positive
-C00562,Employee Voice,negative
-C00563,Fairness & Opportunity,positive
-C00564,Inclusive Leadership,negative
-C00565,Employee Voice,positive
-C00566,Fairness & Opportunity,negative
-C00567,Belonging,positive
-C00568,Belonging,positive
-C00569,Psychological Safety,negative
-C00570,Employee Voice; Psychological Safety,positive
-C00571,Psychological Safety,negative
-C00572,Inclusive Leadership; Psychological Safety,positive
+C00555,Employee Voice; Psychological Safety,positive
+C00556,Psychological Safety,negative
+C00557,Fairness & Opportunity,negative
+C00558,Belonging,positive
+C00559,Inclusive Leadership,negative
+C00560,Belonging,negative
+C00561,Fairness & Opportunity,positive
+C00562,Fairness & Opportunity,negative
+C00563,Belonging,positive
+C00564,Fairness & Opportunity,negative
+C00565,Psychological Safety,negative
+C00566,Inclusive Leadership,negative
+C00567,Psychological Safety; Belonging,positive
+C00568,Belonging; Psychological Safety,negative
+C00569,Belonging,negative
+C00570,Fairness & Opportunity,negative
+C00571,Employee Voice,positive
+C00572,Psychological Safety; Fairness & Opportunity,negative
 C00573,Psychological Safety,negative
-C00574,Belonging,positive
-C00575,Employee Voice,negative
-C00576,Inclusive Leadership,positive
-C00577,Fairness & Opportunity,negative
-C00578,Inclusive Leadership,positive
-C00579,Fairness & Opportunity,negative
-C00580,Belonging; Inclusive Leadership,positive
-C00581,Fairness & Opportunity,negative
-C00582,Fairness & Opportunity,negative
-C00583,Inclusive Leadership,negative
-C00584,Employee Voice,positive
+C00574,Inclusive Leadership,positive
+C00575,Psychological Safety,negative
+C00576,Employee Voice; Fairness & Opportunity,positive
+C00577,Belonging,positive
+C00578,Inclusive Leadership; Employee Voice,positive
+C00579,Fairness & Opportunity,positive
+C00580,Fairness & Opportunity,negative
+C00581,Employee Voice; Psychological Safety,positive
+C00582,Belonging,negative
+C00583,Employee Voice,positive
+C00584,Inclusive Leadership; Belonging,positive
 C00585,Fairness & Opportunity,positive
-C00586,Inclusive Leadership,positive
-C00587,Psychological Safety,negative
+C00586,Belonging; Employee Voice,negative
+C00587,Employee Voice,positive
 C00588,Employee Voice,negative
-C00589,Employee Voice,negative
+C00589,Fairness & Opportunity,positive
 C00590,Psychological Safety,negative
-C00591,Inclusive Leadership; Psychological Safety,positive
-C00592,Belonging,negative
-C00593,Psychological Safety,positive
-C00594,Employee Voice,negative
-C00595,Employee Voice,positive
-C00596,Inclusive Leadership,negative
-C00597,Inclusive Leadership; Fairness & Opportunity,negative
-C00598,Employee Voice,negative
-C00599,Belonging; Inclusive Leadership,positive
-C00600,Employee Voice,positive
-C00601,Belonging; Inclusive Leadership,positive
-C00602,Fairness & Opportunity; Psychological Safety,positive
-C00603,Fairness & Opportunity,positive
-C00604,Employee Voice; Psychological Safety,negative
-C00605,Fairness & Opportunity; Inclusive Leadership,negative
-C00606,Employee Voice; Belonging,negative
-C00607,Inclusive Leadership,positive
-C00608,Employee Voice,negative
-C00609,Belonging,positive
-C00610,Psychological Safety,negative
-C00611,Employee Voice; Psychological Safety,positive
-C00612,Belonging,positive
-C00613,Employee Voice,negative
-C00614,Inclusive Leadership,positive
-C00615,Fairness & Opportunity; Inclusive Leadership,negative
-C00616,Inclusive Leadership,positive
-C00617,Employee Voice,negative
-C00618,Belonging,positive
-C00619,Fairness & Opportunity; Belonging,positive
-C00620,Belonging,negative
-C00621,Inclusive Leadership,negative
-C00622,Psychological Safety; Fairness & Opportunity,positive
-C00623,Employee Voice,negative
-C00624,Fairness & Opportunity,positive
-C00625,Belonging; Fairness & Opportunity,negative
-C00626,Employee Voice,positive
-C00627,Fairness & Opportunity; Belonging,positive
-C00628,Inclusive Leadership; Psychological Safety,negative
+C00591,Fairness & Opportunity; Psychological Safety,positive
+C00592,Inclusive Leadership,negative
+C00593,Employee Voice,positive
+C00594,Inclusive Leadership; Fairness & Opportunity,positive
+C00595,Belonging,positive
+C00596,Fairness & Opportunity,negative
+C00597,Fairness & Opportunity; Psychological Safety,negative
+C00598,Inclusive Leadership,positive
+C00599,Employee Voice,negative
+C00600,Belonging,positive
+C00601,Psychological Safety,positive
+C00602,Psychological Safety; Belonging,negative
+C00603,Inclusive Leadership; Employee Voice,positive
+C00604,Employee Voice,negative
+C00605,Belonging,positive
+C00606,Inclusive Leadership,negative
+C00607,Belonging; Fairness & Opportunity,positive
+C00608,Inclusive Leadership,negative
+C00609,Belonging; Psychological Safety,negative
+C00610,Fairness & Opportunity,positive
+C00611,Psychological Safety,negative
+C00612,Inclusive Leadership,positive
+C00613,Fairness & Opportunity,positive
+C00614,Fairness & Opportunity,negative
+C00615,Employee Voice,positive
+C00616,Inclusive Leadership,negative
+C00617,Belonging; Inclusive Leadership,positive
+C00618,Psychological Safety; Belonging,negative
+C00619,Employee Voice,positive
+C00620,Inclusive Leadership; Fairness & Opportunity,positive
+C00621,Employee Voice,negative
+C00622,Belonging; Employee Voice,positive
+C00623,Fairness & Opportunity; Inclusive Leadership,negative
+C00624,Employee Voice,positive
+C00625,Inclusive Leadership,negative
+C00626,Belonging,negative
+C00627,Employee Voice,negative
+C00628,Employee Voice,negative
 C00629,Fairness & Opportunity,positive
-C00630,Fairness & Opportunity,negative
-C00631,Employee Voice,positive
-C00632,Psychological Safety,negative
-C00633,Belonging,negative
-C00634,Fairness & Opportunity,positive
-C00635,Psychological Safety,negative
-C00636,Inclusive Leadership,negative
-C00637,Psychological Safety,positive
-C00638,Employee Voice,positive
-C00639,Inclusive Leadership,positive
-C00640,Belonging,negative
-C00641,Inclusive Leadership,positive
-C00642,Psychological Safety,positive
-C00643,Belonging,positive
-C00644,Fairness & Opportunity,negative
-C00645,Psychological Safety,positive
-C00646,Fairness & Opportunity; Inclusive Leadership,negative
-C00647,Psychological Safety,negative
-C00648,Belonging,positive
-C00649,Fairness & Opportunity; Belonging,negative
-C00650,Employee Voice,negative
-C00651,Belonging; Psychological Safety,positive
-C00652,Inclusive Leadership; Employee Voice,negative
-C00653,Fairness & Opportunity,negative
-C00654,Belonging,positive
-C00655,Psychological Safety; Belonging,negative
-C00656,Employee Voice,negative
-C00657,Inclusive Leadership; Employee Voice,negative
-C00658,Fairness & Opportunity; Employee Voice,positive
-C00659,Fairness & Opportunity,negative
+C00630,Belonging,positive
+C00631,Fairness & Opportunity,positive
+C00632,Belonging,negative
+C00633,Inclusive Leadership,positive
+C00634,Inclusive Leadership,negative
+C00635,Fairness & Opportunity; Employee Voice,negative
+C00636,Fairness & Opportunity,positive
+C00637,Belonging,positive
+C00638,Psychological Safety; Employee Voice,positive
+C00639,Fairness & Opportunity,negative
+C00640,Belonging,positive
+C00641,Fairness & Opportunity,negative
+C00642,Belonging,negative
+C00643,Psychological Safety,negative
+C00644,Employee Voice,positive
+C00645,Belonging,positive
+C00646,Psychological Safety,negative
+C00647,Fairness & Opportunity,positive
+C00648,Fairness & Opportunity; Inclusive Leadership,positive
+C00649,Belonging,negative
+C00650,Fairness & Opportunity,negative
+C00651,Psychological Safety,negative
+C00652,Fairness & Opportunity,positive
+C00653,Employee Voice,negative
+C00654,Psychological Safety; Belonging,positive
+C00655,Inclusive Leadership,negative
+C00656,Fairness & Opportunity,negative
+C00657,Psychological Safety,positive
+C00658,Inclusive Leadership,positive
+C00659,Psychological Safety,negative
 C00660,Belonging,positive
-C00661,Belonging,positive
-C00662,Employee Voice,negative
-C00663,Belonging; Psychological Safety,positive
-C00664,Fairness & Opportunity,negative
-C00665,Inclusive Leadership; Belonging,positive
-C00666,Fairness & Opportunity,negative
-C00667,Inclusive Leadership,positive
-C00668,Inclusive Leadership,negative
+C00661,Fairness & Opportunity,negative
+C00662,Belonging,negative
+C00663,Fairness & Opportunity,positive
+C00664,Inclusive Leadership,positive
+C00665,Employee Voice; Psychological Safety,negative
+C00666,Psychological Safety,negative
+C00667,Employee Voice; Inclusive Leadership,positive
+C00668,Belonging,negative
 C00669,Psychological Safety,positive
-C00670,Fairness & Opportunity,negative
-C00671,Psychological Safety,negative
-C00672,Fairness & Opportunity; Psychological Safety,positive
-C00673,Inclusive Leadership; Employee Voice,positive
-C00674,Belonging,negative
-C00675,Fairness & Opportunity,positive
-C00676,Employee Voice,negative
-C00677,Inclusive Leadership,negative
-C00678,Employee Voice,positive
-C00679,Inclusive Leadership,negative
-C00680,Psychological Safety,negative
+C00670,Employee Voice,negative
+C00671,Belonging,positive
+C00672,Inclusive Leadership,negative
+C00673,Psychological Safety,positive
+C00674,Inclusive Leadership,negative
+C00675,Inclusive Leadership; Belonging,negative
+C00676,Fairness & Opportunity,positive
+C00677,Inclusive Leadership; Psychological Safety,negative
+C00678,Inclusive Leadership,negative
+C00679,Fairness & Opportunity,negative
+C00680,Employee Voice,positive
 C00681,Belonging,positive
-C00682,Psychological Safety,negative
-C00683,Fairness & Opportunity,positive
-C00684,Belonging,positive
-C00685,Employee Voice,negative
-C00686,Fairness & Opportunity,positive
-C00687,Belonging,positive
-C00688,Psychological Safety,negative
-C00689,Belonging,positive
-C00690,Psychological Safety,negative
-C00691,Employee Voice,positive
-C00692,Fairness & Opportunity,negative
-C00693,Employee Voice,positive
-C00694,Employee Voice,negative
-C00695,Fairness & Opportunity,negative
-C00696,Psychological Safety; Employee Voice,negative
-C00697,Fairness & Opportunity,positive
-C00698,Fairness & Opportunity,negative
-C00699,Employee Voice,positive
+C00682,Employee Voice; Inclusive Leadership,positive
+C00683,Belonging; Employee Voice,negative
+C00684,Employee Voice,positive
+C00685,Psychological Safety; Employee Voice,negative
+C00686,Inclusive Leadership; Psychological Safety,positive
+C00687,Belonging; Psychological Safety,negative
+C00688,Fairness & Opportunity,positive
+C00689,Employee Voice,positive
+C00690,Employee Voice,negative
+C00691,Inclusive Leadership,positive
+C00692,Belonging,negative
+C00693,Psychological Safety,negative
+C00694,Employee Voice,positive
+C00695,Employee Voice,negative
+C00696,Psychological Safety,positive
+C00697,Belonging,negative
+C00698,Inclusive Leadership,positive
+C00699,Psychological Safety,negative
 C00700,Employee Voice,positive
-C00701,Fairness & Opportunity,negative
-C00702,Inclusive Leadership,negative
-C00703,Employee Voice,negative
-C00704,Psychological Safety; Belonging,negative
-C00705,Inclusive Leadership,positive
-C00706,Inclusive Leadership,positive
+C00701,Psychological Safety,negative
+C00702,Psychological Safety,negative
+C00703,Belonging,positive
+C00704,Employee Voice,positive
+C00705,Fairness & Opportunity,negative
+C00706,Inclusive Leadership,negative
 C00707,Psychological Safety,negative
-C00708,Fairness & Opportunity; Psychological Safety,negative
-C00709,Inclusive Leadership,positive
-C00710,Belonging,negative
-C00711,Employee Voice,positive
-C00712,Inclusive Leadership,negative
-C00713,Belonging,positive
-C00714,Fairness & Opportunity,negative
-C00715,Belonging; Psychological Safety,positive
-C00716,Fairness & Opportunity; Inclusive Leadership,positive
-C00717,Employee Voice,negative
-C00718,Psychological Safety; Employee Voice,positive
-C00719,Belonging,positive
-C00720,Inclusive Leadership,negative
-C00721,Employee Voice; Inclusive Leadership,negative
-C00722,Belonging,positive
-C00723,Fairness & Opportunity; Inclusive Leadership,positive
-C00724,Inclusive Leadership,negative
-C00725,Fairness & Opportunity,positive
-C00726,Employee Voice,negative
-C00727,Inclusive Leadership,positive
-C00728,Employee Voice; Belonging,negative
-C00729,Belonging,positive
-C00730,Psychological Safety,negative
-C00731,Fairness & Opportunity,positive
-C00732,Inclusive Leadership,negative
-C00733,Employee Voice,positive
-C00734,Employee Voice,positive
-C00735,Psychological Safety,negative
+C00708,Belonging,positive
+C00709,Belonging,negative
+C00710,Inclusive Leadership,positive
+C00711,Belonging,positive
+C00712,Fairness & Opportunity,negative
+C00713,Psychological Safety,positive
+C00714,Belonging,negative
+C00715,Fairness & Opportunity,positive
+C00716,Fairness & Opportunity,negative
+C00717,Inclusive Leadership,positive
+C00718,Psychological Safety,positive
+C00719,Belonging; Employee Voice,negative
+C00720,Fairness & Opportunity,positive
+C00721,Inclusive Leadership; Employee Voice,negative
+C00722,Employee Voice,negative
+C00723,Belonging; Employee Voice,positive
+C00724,Belonging,negative
+C00725,Employee Voice,positive
+C00726,Belonging,negative
+C00727,Psychological Safety,negative
+C00728,Fairness & Opportunity,positive
+C00729,Psychological Safety,negative
+C00730,Belonging,positive
+C00731,Belonging,positive
+C00732,Inclusive Leadership,positive
+C00733,Psychological Safety,positive
+C00734,Inclusive Leadership; Fairness & Opportunity,negative
+C00735,Belonging,positive
 C00736,Belonging,positive
-C00737,Employee Voice,negative
-C00738,Employee Voice,negative
-C00739,Fairness & Opportunity,positive
-C00740,Psychological Safety; Belonging,negative
-C00741,Employee Voice,positive
-C00742,Inclusive Leadership,positive
-C00743,Psychological Safety; Fairness & Opportunity,negative
-C00744,Belonging,negative
-C00745,Belonging,positive
+C00737,Inclusive Leadership,negative
+C00738,Employee Voice; Fairness & Opportunity,positive
+C00739,Employee Voice,negative
+C00740,Inclusive Leadership,positive
+C00741,Belonging,negative
+C00742,Fairness & Opportunity,positive
+C00743,Belonging,negative
+C00744,Inclusive Leadership,positive
+C00745,Inclusive Leadership,negative
 C00746,Employee Voice,negative
-C00747,Inclusive Leadership; Belonging,positive
-C00748,Psychological Safety; Employee Voice,positive
-C00749,Belonging,negative
-C00750,Inclusive Leadership,negative
-C00751,Fairness & Opportunity; Belonging,positive
-C00752,Belonging,negative
-C00753,Belonging,positive
-C00754,Psychological Safety,negative
-C00755,Belonging,positive
-C00756,Belonging,negative
-C00757,Inclusive Leadership,negative
-C00758,Psychological Safety,positive
-C00759,Employee Voice,positive
-C00760,Inclusive Leadership,negative
-C00761,Fairness & Opportunity,negative
-C00762,Employee Voice,positive
-C00763,Psychological Safety,negative
-C00764,Inclusive Leadership,negative
-C00765,Employee Voice,positive
-C00766,Employee Voice,negative
-C00767,Belonging,negative
-C00768,Employee Voice,positive
-C00769,Inclusive Leadership,negative
-C00770,Belonging; Psychological Safety,positive
-C00771,Belonging,negative
-C00772,Fairness & Opportunity,negative
-C00773,Belonging,positive
-C00774,Fairness & Opportunity,negative
-C00775,Fairness & Opportunity,negative
-C00776,Fairness & Opportunity; Inclusive Leadership,negative
-C00777,Employee Voice,negative
-C00778,Fairness & Opportunity,negative
-C00779,Psychological Safety; Fairness & Opportunity,positive
-C00780,Inclusive Leadership,negative
-C00781,Employee Voice,positive
-C00782,Psychological Safety,negative
-C00783,Psychological Safety,positive
-C00784,Fairness & Opportunity,negative
-C00785,Belonging; Inclusive Leadership,positive
+C00747,Belonging,positive
+C00748,Inclusive Leadership,negative
+C00749,Employee Voice,positive
+C00750,Psychological Safety,negative
+C00751,Fairness & Opportunity; Psychological Safety,positive
+C00752,Inclusive Leadership,negative
+C00753,Employee Voice,negative
+C00754,Belonging,positive
+C00755,Psychological Safety,negative
+C00756,Belonging,positive
+C00757,Psychological Safety,negative
+C00758,Belonging,positive
+C00759,Employee Voice,negative
+C00760,Inclusive Leadership,positive
+C00761,Belonging,negative
+C00762,Inclusive Leadership,positive
+C00763,Fairness & Opportunity,negative
+C00764,Fairness & Opportunity,negative
+C00765,Belonging,negative
+C00766,Psychological Safety,negative
+C00767,Employee Voice,positive
+C00768,Employee Voice; Psychological Safety,positive
+C00769,Fairness & Opportunity,negative
+C00770,Psychological Safety,positive
+C00771,Employee Voice; Belonging,negative
+C00772,Inclusive Leadership; Belonging,positive
+C00773,Psychological Safety,positive
+C00774,Inclusive Leadership,positive
+C00775,Inclusive Leadership,negative
+C00776,Psychological Safety; Belonging,negative
+C00777,Fairness & Opportunity,positive
+C00778,Belonging,positive
+C00779,Employee Voice,negative
+C00780,Inclusive Leadership,positive
+C00781,Employee Voice,negative
+C00782,Inclusive Leadership,negative
+C00783,Employee Voice,positive
+C00784,Employee Voice,negative
+C00785,Belonging,positive
 C00786,Fairness & Opportunity,negative
-C00787,Psychological Safety,positive
-C00788,Inclusive Leadership,negative
-C00789,Employee Voice,positive
-C00790,Employee Voice,negative
-C00791,Employee Voice,negative
-C00792,Psychological Safety,positive
-C00793,Belonging,negative
+C00787,Inclusive Leadership; Fairness & Opportunity,negative
+C00788,Belonging,positive
+C00789,Psychological Safety,negative
+C00790,Inclusive Leadership,positive
+C00791,Inclusive Leadership; Employee Voice,negative
+C00792,Inclusive Leadership,negative
+C00793,Inclusive Leadership; Belonging,negative
 C00794,Psychological Safety,positive
-C00795,Belonging; Inclusive Leadership,positive
+C00795,Employee Voice,negative
 C00796,Belonging,negative
-C00797,Fairness & Opportunity; Inclusive Leadership,positive
-C00798,Inclusive Leadership; Psychological Safety,positive
-C00799,Belonging; Inclusive Leadership,negative
-C00800,Inclusive Leadership,positive
-C00801,Belonging,negative
-C00802,Belonging,negative
-C00803,Employee Voice,negative
-C00804,Belonging,positive
-C00805,Belonging,negative
-C00806,Psychological Safety; Fairness & Opportunity,positive
-C00807,Inclusive Leadership; Psychological Safety,negative
-C00808,Belonging; Psychological Safety,positive
-C00809,Fairness & Opportunity,negative
-C00810,Belonging,negative
-C00811,Fairness & Opportunity,negative
-C00812,Inclusive Leadership,negative
-C00813,Fairness & Opportunity; Employee Voice,negative
-C00814,Employee Voice,positive
-C00815,Inclusive Leadership,negative
-C00816,Belonging,positive
+C00797,Fairness & Opportunity; Psychological Safety,positive
+C00798,Fairness & Opportunity,negative
+C00799,Belonging; Inclusive Leadership,positive
+C00800,Belonging,negative
+C00801,Psychological Safety,positive
+C00802,Psychological Safety,negative
+C00803,Fairness & Opportunity,negative
+C00804,Inclusive Leadership,positive
+C00805,Fairness & Opportunity,negative
+C00806,Belonging; Employee Voice,positive
+C00807,Psychological Safety; Fairness & Opportunity,negative
+C00808,Fairness & Opportunity,negative
+C00809,Psychological Safety,positive
+C00810,Psychological Safety; Fairness & Opportunity,negative
+C00811,Belonging,positive
+C00812,Employee Voice,negative
+C00813,Psychological Safety,positive
+C00814,Employee Voice; Inclusive Leadership,positive
+C00815,Belonging,negative
+C00816,Inclusive Leadership,negative
 C00817,Employee Voice; Belonging,negative
-C00818,Belonging; Psychological Safety,negative
-C00819,Psychological Safety; Fairness & Opportunity,positive
-C00820,Belonging,negative
-C00821,Inclusive Leadership,positive
-C00822,Employee Voice,negative
-C00823,Inclusive Leadership,positive
-C00824,Belonging; Employee Voice,negative
-C00825,Psychological Safety; Inclusive Leadership,positive
-C00826,Fairness & Opportunity,negative
-C00827,Inclusive Leadership,positive
-C00828,Belonging; Employee Voice,negative
-C00829,Psychological Safety,positive
-C00830,Psychological Safety,negative
-C00831,Belonging,positive
+C00818,Employee Voice; Inclusive Leadership,negative
+C00819,Fairness & Opportunity,negative
+C00820,Belonging,positive
+C00821,Fairness & Opportunity,negative
+C00822,Employee Voice,positive
+C00823,Psychological Safety; Inclusive Leadership,positive
+C00824,Employee Voice,negative
+C00825,Psychological Safety,negative
+C00826,Employee Voice,negative
+C00827,Employee Voice; Psychological Safety,positive
+C00828,Belonging,negative
+C00829,Inclusive Leadership,negative
+C00830,Belonging; Inclusive Leadership,positive
+C00831,Inclusive Leadership,negative
 C00832,Fairness & Opportunity,negative
-C00833,Psychological Safety,positive
-C00834,Fairness & Opportunity,negative
-C00835,Belonging,negative
-C00836,Psychological Safety; Employee Voice,positive
+C00833,Belonging,positive
+C00834,Belonging,negative
+C00835,Belonging,positive
+C00836,Fairness & Opportunity; Belonging,negative
 C00837,Inclusive Leadership,positive
-C00838,Psychological Safety,negative
-C00839,Belonging; Psychological Safety,positive
-C00840,Fairness & Opportunity; Inclusive Leadership,negative
+C00838,Inclusive Leadership; Fairness & Opportunity,negative
+C00839,Psychological Safety,negative
+C00840,Fairness & Opportunity,negative
 C00841,Employee Voice,positive
-C00842,Employee Voice,negative
-C00843,Fairness & Opportunity,positive
-C00844,Psychological Safety,negative
-C00845,Psychological Safety,positive
-C00846,Psychological Safety,negative
-C00847,Belonging,positive
+C00842,Fairness & Opportunity,positive
+C00843,Employee Voice; Belonging,negative
+C00844,Employee Voice,negative
+C00845,Inclusive Leadership,positive
+C00846,Employee Voice,negative
+C00847,Fairness & Opportunity,negative
 C00848,Belonging,positive
-C00849,Belonging,positive
-C00850,Belonging,negative
-C00851,Psychological Safety,negative
-C00852,Fairness & Opportunity; Employee Voice,positive
-C00853,Inclusive Leadership,positive
-C00854,Fairness & Opportunity,negative
-C00855,Belonging; Fairness & Opportunity,positive
-C00856,Psychological Safety,negative
-C00857,Employee Voice,negative
-C00858,Employee Voice,negative
-C00859,Belonging,positive
-C00860,Belonging; Fairness & Opportunity,positive
-C00861,Psychological Safety,negative
-C00862,Employee Voice,positive
-C00863,Employee Voice; Psychological Safety,negative
-C00864,Belonging,positive
-C00865,Psychological Safety,negative
-C00866,Employee Voice,positive
-C00867,Fairness & Opportunity,negative
-C00868,Psychological Safety,positive
-C00869,Psychological Safety,negative
-C00870,Inclusive Leadership,positive
-C00871,Inclusive Leadership,positive
-C00872,Fairness & Opportunity,negative
-C00873,Psychological Safety; Belonging,negative
-C00874,Belonging; Psychological Safety,positive
-C00875,Inclusive Leadership,positive
-C00876,Inclusive Leadership,positive
-C00877,Employee Voice; Fairness & Opportunity,positive
+C00849,Fairness & Opportunity,negative
+C00850,Belonging,positive
+C00851,Inclusive Leadership; Fairness & Opportunity,negative
+C00852,Employee Voice,negative
+C00853,Fairness & Opportunity,positive
+C00854,Employee Voice,negative
+C00855,Belonging,positive
+C00856,Inclusive Leadership,negative
+C00857,Belonging,negative
+C00858,Psychological Safety,positive
+C00859,Psychological Safety,negative
+C00860,Employee Voice,positive
+C00861,Inclusive Leadership,positive
+C00862,Fairness & Opportunity; Psychological Safety,negative
+C00863,Psychological Safety,positive
+C00864,Belonging; Employee Voice,negative
+C00865,Inclusive Leadership,positive
+C00866,Psychological Safety,positive
+C00867,Belonging,negative
+C00868,Inclusive Leadership; Belonging,negative
+C00869,Belonging,negative
+C00870,Psychological Safety,positive
+C00871,Inclusive Leadership; Fairness & Opportunity,negative
+C00872,Belonging; Fairness & Opportunity,negative
+C00873,Employee Voice,negative
+C00874,Fairness & Opportunity,positive
+C00875,Inclusive Leadership,negative
+C00876,Employee Voice; Belonging,positive
+C00877,Belonging,positive
 C00878,Psychological Safety,negative
-C00879,Psychological Safety,negative
-C00880,Inclusive Leadership,positive
-C00881,Fairness & Opportunity,negative
-C00882,Psychological Safety; Inclusive Leadership,positive
-C00883,Belonging,positive
-C00884,Inclusive Leadership; Employee Voice,negative
-C00885,Employee Voice,positive
-C00886,Psychological Safety,negative
-C00887,Employee Voice,positive
-C00888,Employee Voice; Fairness & Opportunity,negative
-C00889,Inclusive Leadership,positive
-C00890,Inclusive Leadership,negative
+C00879,Inclusive Leadership,positive
+C00880,Inclusive Leadership; Psychological Safety,positive
+C00881,Belonging,negative
+C00882,Inclusive Leadership,negative
+C00883,Employee Voice,positive
+C00884,Psychological Safety; Inclusive Leadership,negative
+C00885,Inclusive Leadership,positive
+C00886,Psychological Safety,positive
+C00887,Belonging; Employee Voice,negative
+C00888,Inclusive Leadership,positive
+C00889,Employee Voice,negative
+C00890,Employee Voice,negative
 C00891,Psychological Safety,negative
-C00892,Employee Voice,positive
-C00893,Belonging,negative
+C00892,Inclusive Leadership,positive
+C00893,Fairness & Opportunity,positive
 C00894,Belonging,negative
-C00895,Employee Voice,positive
-C00896,Fairness & Opportunity,negative
-C00897,Fairness & Opportunity,negative
-C00898,Belonging,positive
-C00899,Belonging,negative
-C00900,Fairness & Opportunity; Inclusive Leadership,positive
-C00901,Psychological Safety; Fairness & Opportunity,negative
-C00902,Belonging,positive
-C00903,Psychological Safety; Inclusive Leadership,negative
-C00904,Inclusive Leadership,positive
-C00905,Psychological Safety,positive
-C00906,Employee Voice,negative
-C00907,Employee Voice,negative
-C00908,Psychological Safety,positive
-C00909,Psychological Safety; Fairness & Opportunity,negative
+C00895,Employee Voice; Psychological Safety,negative
+C00896,Belonging,negative
+C00897,Employee Voice; Inclusive Leadership,positive
+C00898,Fairness & Opportunity,negative
+C00899,Employee Voice,positive
+C00900,Employee Voice; Fairness & Opportunity,negative
+C00901,Fairness & Opportunity,negative
+C00902,Belonging,negative
+C00903,Employee Voice,positive
+C00904,Psychological Safety,negative
+C00905,Belonging,positive
+C00906,Psychological Safety,negative
+C00907,Employee Voice; Fairness & Opportunity,positive
+C00908,Fairness & Opportunity,positive
+C00909,Belonging,negative
 C00910,Belonging,positive
-C00911,Fairness & Opportunity,negative
-C00912,Employee Voice,positive
-C00913,Fairness & Opportunity,negative
-C00914,Employee Voice,positive
+C00911,Employee Voice,positive
+C00912,Inclusive Leadership,negative
+C00913,Employee Voice; Psychological Safety,negative
+C00914,Belonging,positive
 C00915,Employee Voice,negative
-C00916,Inclusive Leadership,positive
-C00917,Fairness & Opportunity,negative
-C00918,Psychological Safety; Fairness & Opportunity,positive
-C00919,Fairness & Opportunity,positive
-C00920,Psychological Safety,positive
-C00921,Belonging,negative
-C00922,Psychological Safety,positive
-C00923,Inclusive Leadership,negative
-C00924,Belonging,positive
-C00925,Belonging,positive
-C00926,Employee Voice,negative
-C00927,Fairness & Opportunity,positive
-C00928,Psychological Safety,negative
-C00929,Belonging,positive
-C00930,Fairness & Opportunity,positive
-C00931,Inclusive Leadership,negative
-C00932,Psychological Safety,positive
+C00916,Psychological Safety,negative
+C00917,Fairness & Opportunity,positive
+C00918,Belonging,positive
+C00919,Inclusive Leadership; Belonging,negative
+C00920,Psychological Safety,negative
+C00921,Inclusive Leadership,positive
+C00922,Belonging,negative
+C00923,Psychological Safety,positive
+C00924,Inclusive Leadership,positive
+C00925,Belonging,negative
+C00926,Employee Voice,positive
+C00927,Belonging,negative
+C00928,Employee Voice,positive
+C00929,Psychological Safety,negative
+C00930,Belonging,positive
+C00931,Inclusive Leadership,positive
+C00932,Fairness & Opportunity,negative
 C00933,Inclusive Leadership,negative
-C00934,Inclusive Leadership; Employee Voice,positive
-C00935,Psychological Safety,negative
-C00936,Belonging,positive
-C00937,Inclusive Leadership; Employee Voice,negative
-C00938,Employee Voice; Belonging,positive
-C00939,Psychological Safety,negative
-C00940,Inclusive Leadership,positive
-C00941,Inclusive Leadership; Belonging,positive
-C00942,Fairness & Opportunity,negative
+C00934,Psychological Safety,positive
+C00935,Belonging,negative
+C00936,Inclusive Leadership,positive
+C00937,Inclusive Leadership,negative
+C00938,Psychological Safety,positive
+C00939,Inclusive Leadership,positive
+C00940,Fairness & Opportunity,negative
+C00941,Inclusive Leadership,positive
+C00942,Inclusive Leadership,positive
 C00943,Belonging,positive
-C00944,Inclusive Leadership,positive
-C00945,Fairness & Opportunity; Psychological Safety,negative
-C00946,Belonging,positive
-C00947,Belonging,negative
-C00948,Employee Voice,positive
-C00949,Psychological Safety; Fairness & Opportunity,negative
-C00950,Inclusive Leadership,positive
-C00951,Inclusive Leadership,negative
-C00952,Employee Voice,negative
-C00953,Belonging,positive
-C00954,Employee Voice,negative
-C00955,Inclusive Leadership,positive
-C00956,Psychological Safety,positive
+C00944,Employee Voice,negative
+C00945,Belonging,positive
+C00946,Employee Voice,negative
+C00947,Inclusive Leadership,positive
+C00948,Fairness & Opportunity,negative
+C00949,Employee Voice,negative
+C00950,Employee Voice,negative
+C00951,Psychological Safety,negative
+C00952,Fairness & Opportunity,positive
+C00953,Inclusive Leadership,negative
+C00954,Fairness & Opportunity,positive
+C00955,Employee Voice,negative
+C00956,Employee Voice; Belonging,negative
 C00957,Inclusive Leadership,negative
-C00958,Employee Voice,negative
-C00959,Belonging; Fairness & Opportunity,positive
-C00960,Belonging,negative
-C00961,Employee Voice,negative
-C00962,Belonging,positive
+C00958,Belonging,positive
+C00959,Inclusive Leadership,positive
+C00960,Employee Voice,negative
+C00961,Employee Voice; Fairness & Opportunity,negative
+C00962,Belonging; Employee Voice,positive
 C00963,Fairness & Opportunity,negative
 C00964,Inclusive Leadership,positive
-C00965,Psychological Safety,negative
-C00966,Psychological Safety; Belonging,positive
-C00967,Psychological Safety,negative
-C00968,Belonging,negative
-C00969,Fairness & Opportunity,negative
-C00970,Belonging,positive
-C00971,Employee Voice,positive
-C00972,Inclusive Leadership,negative
-C00973,Fairness & Opportunity,positive
-C00974,Inclusive Leadership,positive
-C00975,Belonging,negative
-C00976,Fairness & Opportunity,positive
-C00977,Fairness & Opportunity,negative
-C00978,Belonging; Psychological Safety,positive
-C00979,Employee Voice; Belonging,positive
-C00980,Inclusive Leadership,negative
-C00981,Belonging; Inclusive Leadership,negative
-C00982,Fairness & Opportunity; Inclusive Leadership,negative
-C00983,Inclusive Leadership,positive
-C00984,Fairness & Opportunity,negative
-C00985,Employee Voice,positive
+C00965,Psychological Safety; Employee Voice,negative
+C00966,Inclusive Leadership,negative
+C00967,Belonging,positive
+C00968,Inclusive Leadership,positive
+C00969,Belonging,negative
+C00970,Employee Voice,positive
+C00971,Psychological Safety,negative
+C00972,Employee Voice,positive
+C00973,Employee Voice,positive
+C00974,Psychological Safety,negative
+C00975,Inclusive Leadership,positive
+C00976,Belonging,negative
+C00977,Employee Voice,positive
+C00978,Psychological Safety,positive
+C00979,Belonging,negative
+C00980,Fairness & Opportunity,negative
+C00981,Inclusive Leadership; Psychological Safety,positive
+C00982,Belonging,positive
+C00983,Psychological Safety,negative
+C00984,Fairness & Opportunity,positive
+C00985,Psychological Safety,positive
 C00986,Inclusive Leadership,negative
-C00987,Fairness & Opportunity,positive
-C00988,Psychological Safety; Employee Voice,negative
-C00989,Fairness & Opportunity,positive
-C00990,Belonging,negative
-C00991,Psychological Safety,positive
-C00992,Belonging,negative
-C00993,Psychological Safety,positive
-C00994,Employee Voice,negative
-C00995,Fairness & Opportunity; Employee Voice,negative
-C00996,Psychological Safety,negative
-C00997,Belonging,positive
-C00998,Fairness & Opportunity; Psychological Safety,positive
-C00999,Employee Voice,negative
-C01000,Belonging; Inclusive Leadership,positive
-C01001,Inclusive Leadership; Employee Voice,positive
-C01002,Psychological Safety,negative
-C01003,Fairness & Opportunity,positive
-C01004,Belonging; Psychological Safety,negative
+C00987,Employee Voice,positive
+C00988,Fairness & Opportunity; Inclusive Leadership,negative
+C00989,Belonging,positive
+C00990,Fairness & Opportunity; Psychological Safety,negative
+C00991,Inclusive Leadership,positive
+C00992,Belonging,positive
+C00993,Employee Voice,negative
+C00994,Inclusive Leadership,positive
+C00995,Inclusive Leadership,positive
+C00996,Inclusive Leadership; Psychological Safety,positive
+C00997,Employee Voice,positive
+C00998,Inclusive Leadership; Employee Voice,positive
+C00999,Inclusive Leadership,positive
+C01000,Fairness & Opportunity,negative
+C01001,Belonging; Inclusive Leadership,positive
+C01002,Employee Voice,positive
+C01003,Employee Voice,negative
+C01004,Belonging,negative
 C01005,Psychological Safety,positive
-C01006,Belonging,negative
-C01007,Employee Voice,positive
+C01006,Psychological Safety,positive
+C01007,Psychological Safety; Fairness & Opportunity,positive
 C01008,Employee Voice,positive
-C01009,Inclusive Leadership,positive
-C01010,Psychological Safety,negative
-C01011,Belonging,positive
-C01012,Inclusive Leadership,positive
-C01013,Psychological Safety,negative
-C01014,Inclusive Leadership,positive
-C01015,Employee Voice,positive
-C01016,Psychological Safety,positive
-C01017,Inclusive Leadership; Fairness & Opportunity,negative
-C01018,Belonging,positive
+C01009,Belonging,negative
+C01010,Inclusive Leadership; Belonging,positive
+C01011,Employee Voice,negative
+C01012,Employee Voice,negative
+C01013,Psychological Safety,positive
+C01014,Belonging,positive
+C01015,Employee Voice,negative
+C01016,Belonging,positive
+C01017,Inclusive Leadership,negative
+C01018,Employee Voice,positive
 C01019,Employee Voice,negative
-C01020,Employee Voice,negative
-C01021,Inclusive Leadership,positive
-C01022,Employee Voice,negative
-C01023,Fairness & Opportunity,positive
-C01024,Psychological Safety; Inclusive Leadership,negative
-C01025,Inclusive Leadership,positive
+C01020,Employee Voice,positive
+C01021,Belonging,negative
+C01022,Psychological Safety,positive
+C01023,Inclusive Leadership,negative
+C01024,Belonging,positive
+C01025,Employee Voice,negative
 C01026,Fairness & Opportunity,negative
-C01027,Employee Voice,positive
-C01028,Fairness & Opportunity; Inclusive Leadership,negative
-C01029,Fairness & Opportunity,negative
-C01030,Psychological Safety,positive
-C01031,Inclusive Leadership,positive
-C01032,Inclusive Leadership,negative
-C01033,Fairness & Opportunity,positive
-C01034,Psychological Safety,negative
-C01035,Fairness & Opportunity,negative
-C01036,Employee Voice,negative
-C01037,Belonging,negative
-C01038,Psychological Safety,negative
-C01039,Employee Voice,negative
-C01040,Inclusive Leadership,positive
-C01041,Employee Voice; Psychological Safety,positive
-C01042,Belonging; Inclusive Leadership,positive
-C01043,Inclusive Leadership,positive
-C01044,Belonging; Employee Voice,positive
-C01045,Fairness & Opportunity,negative
-C01046,Inclusive Leadership,positive
-C01047,Belonging,negative
-C01048,Psychological Safety,positive
-C01049,Employee Voice,negative
-C01050,Inclusive Leadership,positive
+C01027,Inclusive Leadership; Psychological Safety,positive
+C01028,Employee Voice,negative
+C01029,Psychological Safety,positive
+C01030,Belonging; Fairness & Opportunity,negative
+C01031,Employee Voice,positive
+C01032,Belonging,negative
+C01033,Psychological Safety,negative
+C01034,Belonging,negative
+C01035,Inclusive Leadership; Psychological Safety,positive
+C01036,Fairness & Opportunity; Inclusive Leadership,negative
+C01037,Belonging; Psychological Safety,positive
+C01038,Fairness & Opportunity; Employee Voice,negative
+C01039,Belonging,positive
+C01040,Fairness & Opportunity,negative
+C01041,Psychological Safety,negative
+C01042,Inclusive Leadership; Psychological Safety,negative
+C01043,Belonging,positive
+C01044,Psychological Safety,positive
+C01045,Psychological Safety,negative
+C01046,Employee Voice,positive
+C01047,Belonging,positive
+C01048,Belonging,positive
+C01049,Psychological Safety,negative
+C01050,Belonging,positive
 C01051,Fairness & Opportunity,negative
-C01052,Fairness & Opportunity,positive
-C01053,Fairness & Opportunity,negative
-C01054,Psychological Safety,positive
-C01055,Employee Voice; Psychological Safety,negative
-C01056,Belonging,positive
-C01057,Psychological Safety,negative
-C01058,Psychological Safety,negative
-C01059,Psychological Safety,negative
-C01060,Employee Voice,positive
-C01061,Belonging,positive
-C01062,Fairness & Opportunity,positive
-C01063,Belonging,negative
-C01064,Psychological Safety,positive
-C01065,Inclusive Leadership; Employee Voice,negative
-C01066,Fairness & Opportunity,negative
-C01067,Employee Voice; Belonging,positive
-C01068,Fairness & Opportunity,negative
-C01069,Employee Voice,positive
-C01070,Inclusive Leadership,negative
+C01052,Belonging; Fairness & Opportunity,positive
+C01053,Inclusive Leadership; Belonging,positive
+C01054,Inclusive Leadership,negative
+C01055,Fairness & Opportunity; Employee Voice,negative
+C01056,Psychological Safety,positive
+C01057,Belonging,negative
+C01058,Employee Voice; Inclusive Leadership,negative
+C01059,Psychological Safety,positive
+C01060,Psychological Safety; Belonging,negative
+C01061,Fairness & Opportunity; Employee Voice,positive
+C01062,Employee Voice,positive
+C01063,Inclusive Leadership,positive
+C01064,Psychological Safety; Fairness & Opportunity,positive
+C01065,Belonging,positive
+C01066,Employee Voice,negative
+C01067,Belonging; Psychological Safety,positive
+C01068,Inclusive Leadership; Employee Voice,negative
+C01069,Psychological Safety; Employee Voice,negative
+C01070,Fairness & Opportunity,positive
 C01071,Belonging,positive
-C01072,Inclusive Leadership,positive
-C01073,Belonging,negative
-C01074,Fairness & Opportunity,positive
-C01075,Fairness & Opportunity,negative
-C01076,Inclusive Leadership,positive
-C01077,Fairness & Opportunity; Employee Voice,negative
-C01078,Inclusive Leadership,positive
-C01079,Fairness & Opportunity,negative
-C01080,Employee Voice,positive
+C01072,Fairness & Opportunity,negative
+C01073,Belonging,positive
+C01074,Fairness & Opportunity; Employee Voice,negative
+C01075,Inclusive Leadership,positive
+C01076,Inclusive Leadership; Employee Voice,positive
+C01077,Employee Voice,negative
+C01078,Employee Voice,negative
+C01079,Fairness & Opportunity; Belonging,negative
+C01080,Psychological Safety,positive
 C01081,Employee Voice,negative
-C01082,Psychological Safety,positive
-C01083,Belonging,negative
-C01084,Inclusive Leadership,positive
+C01082,Employee Voice,negative
+C01083,Belonging,positive
+C01084,Psychological Safety,negative
 C01085,Inclusive Leadership,positive
-C01086,Employee Voice,negative
-C01087,Belonging,positive
-C01088,Psychological Safety,negative
+C01086,Psychological Safety,positive
+C01087,Fairness & Opportunity,positive
+C01088,Employee Voice,negative
 C01089,Belonging,positive
-C01090,Fairness & Opportunity; Employee Voice,negative
-C01091,Belonging,positive
-C01092,Belonging,positive
-C01093,Employee Voice; Belonging,positive
-C01094,Belonging; Employee Voice,negative
-C01095,Fairness & Opportunity; Psychological Safety,negative
-C01096,Inclusive Leadership,positive
-C01097,Psychological Safety,negative
+C01090,Psychological Safety,negative
+C01091,Fairness & Opportunity,positive
+C01092,Employee Voice,negative
+C01093,Psychological Safety,positive
+C01094,Fairness & Opportunity,negative
+C01095,Belonging,positive
+C01096,Psychological Safety,negative
+C01097,Belonging,positive
 C01098,Fairness & Opportunity,negative
-C01099,Belonging,positive
-C01100,Belonging; Psychological Safety,negative
-C01101,Psychological Safety,positive
-C01102,Employee Voice,negative
-C01103,Inclusive Leadership,positive
-C01104,Inclusive Leadership,positive
-C01105,Belonging,negative
-C01106,Psychological Safety,positive
-C01107,Inclusive Leadership; Belonging,positive
-C01108,Inclusive Leadership,negative
-C01109,Employee Voice; Belonging,positive
-C01110,Psychological Safety; Fairness & Opportunity,negative
-C01111,Employee Voice,positive
-C01112,Psychological Safety,negative
-C01113,Employee Voice,positive
-C01114,Employee Voice; Fairness & Opportunity,negative
-C01115,Fairness & Opportunity,negative
-C01116,Belonging; Fairness & Opportunity,positive
-C01117,Employee Voice; Inclusive Leadership,positive
-C01118,Inclusive Leadership,negative
-C01119,Belonging,positive
-C01120,Fairness & Opportunity,negative
-C01121,Psychological Safety,negative
-C01122,Inclusive Leadership,positive
-C01123,Belonging,negative
-C01124,Employee Voice,negative
-C01125,Inclusive Leadership; Fairness & Opportunity,positive
-C01126,Fairness & Opportunity,negative
-C01127,Inclusive Leadership; Fairness & Opportunity,positive
-C01128,Employee Voice,negative
-C01129,Inclusive Leadership,positive
-C01130,Psychological Safety,negative
-C01131,Fairness & Opportunity,positive
-C01132,Inclusive Leadership,positive
-C01133,Belonging,positive
-C01134,Belonging; Inclusive Leadership,positive
+C01099,Belonging; Fairness & Opportunity,positive
+C01100,Inclusive Leadership,negative
+C01101,Fairness & Opportunity,negative
+C01102,Psychological Safety,positive
+C01103,Employee Voice; Inclusive Leadership,negative
+C01104,Belonging,positive
+C01105,Psychological Safety,negative
+C01106,Inclusive Leadership,negative
+C01107,Fairness & Opportunity,positive
+C01108,Belonging; Fairness & Opportunity,negative
+C01109,Belonging; Fairness & Opportunity,positive
+C01110,Psychological Safety,negative
+C01111,Fairness & Opportunity; Psychological Safety,negative
+C01112,Inclusive Leadership,positive
+C01113,Belonging,negative
+C01114,Psychological Safety,positive
+C01115,Fairness & Opportunity; Belonging,negative
+C01116,Employee Voice,negative
+C01117,Psychological Safety,positive
+C01118,Psychological Safety,negative
+C01119,Psychological Safety,positive
+C01120,Psychological Safety,positive
+C01121,Psychological Safety; Inclusive Leadership,negative
+C01122,Belonging,positive
+C01123,Psychological Safety,negative
+C01124,Psychological Safety,positive
+C01125,Psychological Safety; Inclusive Leadership,negative
+C01126,Belonging,positive
+C01127,Belonging; Employee Voice,negative
+C01128,Belonging,negative
+C01129,Employee Voice,negative
+C01130,Employee Voice,negative
+C01131,Psychological Safety,positive
+C01132,Belonging; Employee Voice,negative
+C01133,Employee Voice,positive
+C01134,Psychological Safety,negative
 C01135,Fairness & Opportunity,positive
-C01136,Belonging,positive
-C01137,Employee Voice,negative
-C01138,Inclusive Leadership; Psychological Safety,positive
+C01136,Psychological Safety,negative
+C01137,Belonging,positive
+C01138,Belonging,positive
 C01139,Belonging,negative
-C01140,Psychological Safety,positive
-C01141,Belonging,positive
-C01142,Fairness & Opportunity; Employee Voice,negative
-C01143,Employee Voice,negative
-C01144,Belonging,positive
-C01145,Employee Voice; Fairness & Opportunity,negative
-C01146,Belonging,positive
-C01147,Employee Voice,negative
-C01148,Inclusive Leadership; Employee Voice,positive
-C01149,Employee Voice,negative
+C01140,Fairness & Opportunity,positive
+C01141,Belonging,negative
+C01142,Psychological Safety; Belonging,positive
+C01143,Belonging,negative
+C01144,Inclusive Leadership,positive
+C01145,Fairness & Opportunity,positive
+C01146,Psychological Safety; Fairness & Opportunity,negative
+C01147,Inclusive Leadership; Psychological Safety,positive
+C01148,Belonging,positive
+C01149,Employee Voice,positive
 C01150,Employee Voice,negative
-C01151,Belonging,positive
-C01152,Inclusive Leadership,negative
-C01153,Psychological Safety,positive
-C01154,Belonging,negative
-C01155,Psychological Safety,negative
-C01156,Employee Voice,negative
-C01157,Fairness & Opportunity,negative
-C01158,Inclusive Leadership,negative
-C01159,Fairness & Opportunity,positive
-C01160,Psychological Safety; Belonging,negative
-C01161,Belonging,positive
-C01162,Fairness & Opportunity,negative
-C01163,Employee Voice,positive
-C01164,Inclusive Leadership,negative
-C01165,Fairness & Opportunity,positive
-C01166,Inclusive Leadership,positive
-C01167,Fairness & Opportunity,negative
-C01168,Inclusive Leadership,negative
-C01169,Belonging,negative
-C01170,Fairness & Opportunity,positive
-C01171,Fairness & Opportunity,negative
-C01172,Inclusive Leadership,positive
-C01173,Belonging,negative
-C01174,Inclusive Leadership,positive
-C01175,Belonging,negative
-C01176,Fairness & Opportunity,positive
-C01177,Fairness & Opportunity,positive
-C01178,Inclusive Leadership,negative
-C01179,Psychological Safety,positive
-C01180,Belonging,positive
-C01181,Fairness & Opportunity,negative
-C01182,Employee Voice,positive
+C01151,Inclusive Leadership; Employee Voice,positive
+C01152,Inclusive Leadership,positive
+C01153,Fairness & Opportunity,negative
+C01154,Employee Voice; Fairness & Opportunity,positive
+C01155,Belonging; Employee Voice,negative
+C01156,Fairness & Opportunity,positive
+C01157,Belonging,positive
+C01158,Belonging,positive
+C01159,Employee Voice,negative
+C01160,Fairness & Opportunity,negative
+C01161,Inclusive Leadership,negative
+C01162,Employee Voice,positive
+C01163,Belonging,positive
+C01164,Belonging,positive
+C01165,Employee Voice,positive
+C01166,Psychological Safety,negative
+C01167,Inclusive Leadership,positive
+C01168,Fairness & Opportunity,negative
+C01169,Belonging,positive
+C01170,Psychological Safety,negative
+C01171,Psychological Safety; Fairness & Opportunity,negative
+C01172,Belonging,positive
+C01173,Belonging; Psychological Safety,positive
+C01174,Employee Voice,negative
+C01175,Employee Voice,negative
+C01176,Belonging,positive
+C01177,Psychological Safety,negative
+C01178,Inclusive Leadership,positive
+C01179,Fairness & Opportunity,negative
+C01180,Psychological Safety,positive
+C01181,Fairness & Opportunity,positive
+C01182,Psychological Safety; Inclusive Leadership,positive
 C01183,Fairness & Opportunity,positive
-C01184,Employee Voice; Inclusive Leadership,negative
-C01185,Employee Voice,negative
-C01186,Employee Voice,negative
-C01187,Fairness & Opportunity,negative
-C01188,Psychological Safety,positive
-C01189,Employee Voice,positive
-C01190,Psychological Safety; Employee Voice,positive
-C01191,Psychological Safety,negative
-C01192,Belonging,positive
-C01193,Fairness & Opportunity,negative
-C01194,Inclusive Leadership,positive
-C01195,Fairness & Opportunity,negative
-C01196,Psychological Safety; Belonging,positive
-C01197,Employee Voice,negative
-C01198,Inclusive Leadership,positive
-C01199,Psychological Safety,negative
-C01200,Employee Voice; Belonging,negative
-C01201,Fairness & Opportunity,negative
+C01184,Employee Voice,negative
+C01185,Belonging,positive
+C01186,Psychological Safety,positive
+C01187,Inclusive Leadership,positive
+C01188,Employee Voice,negative
+C01189,Inclusive Leadership,positive
+C01190,Belonging,positive
+C01191,Employee Voice,negative
+C01192,Psychological Safety; Employee Voice,negative
+C01193,Inclusive Leadership,positive
+C01194,Belonging,positive
+C01195,Fairness & Opportunity; Inclusive Leadership,positive
+C01196,Employee Voice,negative
+C01197,Belonging; Inclusive Leadership,positive
+C01198,Employee Voice; Fairness & Opportunity,positive
+C01199,Psychological Safety; Inclusive Leadership,negative
+C01200,Employee Voice,positive
+C01201,Psychological Safety,positive
 C01202,Inclusive Leadership,positive
-C01203,Fairness & Opportunity,negative
-C01204,Belonging,positive
-C01205,Inclusive Leadership,negative
-C01206,Employee Voice,negative
-C01207,Inclusive Leadership,negative
-C01208,Belonging,positive
-C01209,Employee Voice,negative
-C01210,Employee Voice,negative
-C01211,Psychological Safety,positive
-C01212,Employee Voice,negative
-C01213,Inclusive Leadership,negative
-C01214,Psychological Safety,negative
-C01215,Belonging,positive
-C01216,Belonging,negative
+C01203,Employee Voice,negative
+C01204,Employee Voice,negative
+C01205,Employee Voice,positive
+C01206,Fairness & Opportunity; Psychological Safety,negative
+C01207,Belonging,positive
+C01208,Belonging,negative
+C01209,Employee Voice,positive
+C01210,Fairness & Opportunity; Belonging,negative
+C01211,Employee Voice,positive
+C01212,Fairness & Opportunity,positive
+C01213,Employee Voice,negative
+C01214,Belonging,positive
+C01215,Employee Voice,negative
+C01216,Fairness & Opportunity,positive
 C01217,Inclusive Leadership,negative
-C01218,Belonging,negative
-C01219,Fairness & Opportunity; Inclusive Leadership,negative
-C01220,Employee Voice; Psychological Safety,negative
-C01221,Psychological Safety,positive
-C01222,Fairness & Opportunity,negative
-C01223,Belonging,positive
-C01224,Fairness & Opportunity,negative
-C01225,Inclusive Leadership,positive
-C01226,Belonging,positive
-C01227,Employee Voice,positive
-C01228,Inclusive Leadership,positive
-C01229,Inclusive Leadership,negative
-C01230,Psychological Safety,positive
-C01231,Psychological Safety,negative
-C01232,Fairness & Opportunity,negative
-C01233,Fairness & Opportunity; Employee Voice,negative
-C01234,Belonging; Employee Voice,positive
-C01235,Belonging,negative
-C01236,Employee Voice,positive
-C01237,Inclusive Leadership,negative
-C01238,Psychological Safety,positive
-C01239,Fairness & Opportunity,negative
-C01240,Belonging,negative
-C01241,Employee Voice,negative
-C01242,Inclusive Leadership,positive
-C01243,Inclusive Leadership,negative
+C01218,Psychological Safety,negative
+C01219,Fairness & Opportunity; Belonging,negative
+C01220,Belonging; Psychological Safety,negative
+C01221,Fairness & Opportunity; Psychological Safety,negative
+C01222,Inclusive Leadership; Fairness & Opportunity,positive
+C01223,Psychological Safety,negative
+C01224,Fairness & Opportunity,positive
+C01225,Inclusive Leadership,negative
+C01226,Psychological Safety; Belonging,negative
+C01227,Employee Voice; Inclusive Leadership,positive
+C01228,Fairness & Opportunity,negative
+C01229,Inclusive Leadership,positive
+C01230,Belonging; Employee Voice,negative
+C01231,Psychological Safety,positive
+C01232,Psychological Safety,negative
+C01233,Belonging,positive
+C01234,Psychological Safety,negative
+C01235,Fairness & Opportunity,positive
+C01236,Inclusive Leadership,negative
+C01237,Belonging,negative
+C01238,Employee Voice,positive
+C01239,Psychological Safety,negative
+C01240,Fairness & Opportunity; Inclusive Leadership,positive
+C01241,Psychological Safety; Belonging,negative
+C01242,Belonging,positive
+C01243,Psychological Safety,negative
+C01244,Inclusive Leadership; Psychological Safety,positive
+C01245,Psychological Safety,negative
+C01246,Psychological Safety,negative
+C01247,Inclusive Leadership; Belonging,negative
+C01248,Fairness & Opportunity; Inclusive Leadership,negative
+C01249,Inclusive Leadership,positive
+C01250,Belonging,negative
+C01251,Inclusive Leadership; Fairness & Opportunity,positive
+C01252,Fairness & Opportunity,negative

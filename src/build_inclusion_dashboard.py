@@ -477,8 +477,13 @@ evaluation.
 </html>
 """
 
+    clean_html = "\n".join(
+        line.rstrip()
+        for line in html_output.splitlines()
+    ) + "\n"
+
     OUTPUT.write_text(
-        html_output,
+        clean_html,
         encoding="utf-8"
     )
 

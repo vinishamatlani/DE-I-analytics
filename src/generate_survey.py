@@ -1,8 +1,9 @@
 """
 Synthetic Inclusion & Belonging workforce survey generator.
 
-Builds a complete annual survey for a fictional European services group
- (~3,800 invited employees across 4 countries and approximately 149 teams):
+Builds a complete annual survey for a fictional multinational services
+organisation across APAC, EMEA, and North America
+(~3,800 invited employees across 6 countries and approximately 149 teams):
 
     data/teams.csv             one row per team, with its manager
     data/survey_responses.csv  one row per *invited* employee - answers only
@@ -39,14 +40,11 @@ rng = random.Random(SEED)
 # Survey instrument
 # --------------------------------------------------------------------------
 
-# dimension -> (target favourable rate company-wide, weight on inclusion outcome)
-# The weights shape the synthetic outcome used for descriptive association
-# analysis; they are not estimated causal effects.
-# dimension -> (target favourable rate company-wide, true weight on inclusion outcome)
+# dimension -> (target favourable rate, synthetic outcome weight)
 #
-# The first number controls roughly how positively employees respond.
-# The second number controls how strongly that dimension influences
-# the separate overall inclusion outcome used later in association analysis.
+# The first value controls the approximate response level. The second shapes
+# the synthetic inclusion outcome used for descriptive association analysis.
+# These are simulation settings, not estimated causal effects.
 
 DIMENSIONS = {
     "Belonging":                 (0.68, 0.22),
@@ -178,16 +176,26 @@ RESPONSE_LABELS = {1: "Strongly disagree", 2: "Disagree", 3: "Neither",
 # Organisation
 # --------------------------------------------------------------------------
 
-COUNTRIES = {"IT": 0.29, "PL": 0.33, "DE": 0.22, "ES": 0.16}
+COUNTRIES = {
+    "IN": 0.18,
+    "SG": 0.07,
+    "DE": 0.15,
+    "PL": 0.20,
+    "US": 0.25,
+    "CA": 0.15,
+}
+
+COUNTRY_TO_REGION = {
+    "IN": "APAC",
+    "SG": "APAC",
+    "DE": "EMEA",
+    "PL": "EMEA",
+    "US": "North America",
+    "CA": "North America",
+}
 
 # Additional workforce segments for inclusion analysis.
 # These are synthetic demographic/grouping variables for portfolio analysis.
-
-REGIONS = {
-    "APAC": 0.25,
-    "EMEA": 0.40,
-    "North America": 0.35,
-}
 
 GENDER_GROUPS = {
     "Women": 0.48,
@@ -234,14 +242,19 @@ WORK_MODELS = {
 }
 # Country and department pull each dimension around a little, so the heatmap
 # has real structure instead of noise.
-# Synthetic effects used to create realistic inclusion differences
-# across workforce segments.
+# Synthetic effects used to create realistic inclusion differences across
+# workforce segments.
 
+# Small synthetic country-level offsets create variation in the simulated
+# workforce. They are not empirical claims about employees or workplace
+# inclusion in these countries.
 COUNTRY_EFFECT = {
-    "IT": -0.05,
-    "PL": 0.08,
-    "DE": -0.10,
-    "ES": 0.06,
+    "IN": -0.02,
+    "SG": 0.04,
+    "DE": -0.04,
+    "PL": 0.03,
+    "US": 0.05,
+    "CA": 0.02,
 }
 
 REGION_EFFECT = {
@@ -375,8 +388,8 @@ def make_teams() -> list[dict]:
             team_no += 1
             country = pick(COUNTRIES)
 
-            # Manager quality is the single biggest source of team-to-team
-            # variation in any real survey, so it gets its own latent value.
+            # Synthetic manager-quality variation is included to create
+            # realistic team-level differences in inclusion-related responses.
             manager_quality = rng.gauss(0, 0.52)
             teams.append({
                 "team_id": f"T{team_no:03d}",
@@ -409,7 +422,7 @@ def make_responses(teams: list[dict]) -> list[dict]:
             person_no += 1
             level = pick(LEVELS)
             tenure = pick(TENURES)
-            region = pick(REGIONS)
+            region = COUNTRY_TO_REGION[team["country"]]
             gender_group = pick(GENDER_GROUPS)
             age_band = pick(AGE_BANDS)
             work_model = "Onsite" if rng.random() < shift_share else pick(WORK_MODELS)
